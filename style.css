@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  background: #111;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  text-align: center;
+}
+.cta {
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-size: 16px;
+  border: none;
+  background: #ff4081;
+  color: white;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.cta:hover {
+  transform: scale(1.1);
+}
