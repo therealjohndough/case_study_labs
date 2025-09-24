@@ -1,0 +1,2699 @@
+﻿ID,Title,Content
+9,Work,
+13,Studio,
+16,Contact,
+20,Services,
+44,"Case Studies",
+92,"Client Portal","<!-- wp:html -->
+<div class=""container client-login-section"">
+  <h1 class=""section-heading"">Access your dashboard, files, and project updates securely.</h1>
+
+  <form class=""client-login-form"">
+    <label for=""user_login"">Username or Email</label>
+    <input type=""text"" id=""user_login"" placeholder=""your@email.com"">
+
+    <label for=""user_pass"">Password</label>
+    <input type=""password"" id=""user_pass"" placeholder=""••••••••"">
+
+    <button type=""submit"" class=""btn"">Sign In</button>
+  </form>
+</div>
+
+<!-- /wp:html -->"
+104,"Amplify Your Cannabis Business",
+123,"Website UI Concepts","<!-- wp:html -->
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+  <meta charset=""UTF-8"" />
+  <meta name=""viewport"" content=""width=device-width, initial-scale=1.0""/>
+  <title>MADE TO INSPIRE Brand Kits</title>
+  <link href=""https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Space+Grotesk:wght@400;600;700&display=swap"" rel=""stylesheet"">
+  <style>
+    body {
+      background: #111;
+      color: #fff;
+      font-family: 'Space Grotesk', sans-serif;
+      padding: 2rem;
+    }
+
+    h1 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+      text-align: center;
+    }
+
+    h2 {
+      margin-top: 3rem;
+      color: #FFD300;
+      font-size: 1.75rem;
+    }
+
+    .brand-kit {
+      margin-bottom: 4rem;
+      border: 2px dashed #333;
+      padding: 2rem;
+      border-radius: 15px;
+      background-color: rgba(255, 255, 255, 0.03);
+    }
+
+    .font-preview {
+      font-size: 1rem;
+      margin-bottom: 0.5rem;
+      color: #aaa;
+    }
+
+    .palette {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 1.5rem;
+    }
+
+    .swatch {
+      flex: 1;
+      height: 100px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      font-size: 0.8rem;
+    }
+
+    .sample-text h3 {
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .sample-text p {
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: 1rem;
+      color: #ddd;
+    }
+
+    .cta-button {
+      margin-top: 1rem;
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      font-family: 'Bebas Neue', sans-serif;
+      font-size: 1rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+    }
+
+    .classic-black     { background: #000000; color: #fff; }
+    .classic-yellow    { background: #FFD300; color: #000; }
+    .classic-white     { background: #F5F5F5; color: #000; }
+    .classic-orange    { background: #FF6600; color: #000; }
+
+    .toasted-black     { background: #111111; color: #fff; }
+    .toasted-yellow    { background: #FFC42C; color: #000; }
+    .toasted-cream     { background: #FAF3E0; color: #000; }
+    .toasted-brown     { background: #3D2B1F; color: #fff; }
+
+    .danger-black      { background: #0A0A0A; color: #fff; }
+    .danger-yellow     { background: #FFF200; color: #000; }
+    .danger-pink       { background: #FF006E; color: #fff; }
+    .danger-gray       { background: #2E2E2E; color: #fff; }
+  </style>
+</head>
+<body>
+
+  <h1>MADE TO INSPIRE 🔥 Brand Kits</h1>
+
+  <div class=""brand-kit"">
+    <h2>🐝 Classic Street Heat</h2>
+    <div class=""font-preview"">Headlines: Bebas Neue / Body: Space Grotesk</div>
+    <div class=""palette"">
+      <div class=""swatch classic-black"">#000000</div>
+      <div class=""swatch classic-yellow"">#FFD300</div>
+      <div class=""swatch classic-white"">#F5F5F5</div>
+      <div class=""swatch classic-orange"">#FF6600</div>
+    </div>
+    <div class=""sample-text"">
+      <h3>HEADLINE EXAMPLE</h3>
+      <p>This is paragraph copy using Space Grotesk. Clean, clear, and brand-forward.</p>
+      <button class=""cta-button"" style=""background:#FFD300; color:#000;"">BUY NOW</button>
+    </div>
+  </div>
+
+  <div class=""brand-kit"">
+    <h2>🍯 Alchemical Gold</h2>
+    <div class=""font-preview"">Headlines: Bebas Neue / Body: Space Grotesk</div>
+    <div class=""palette"">
+      <div class=""swatch toasted-black"">#111111</div>
+      <div class=""swatch toasted-yellow"">#FFC42C</div>
+      <div class=""swatch toasted-cream"">#FAF3E0</div>
+      <div class=""swatch toasted-brown"">#3D2B1F</div>
+    </div>
+    <div class=""sample-text"">
+      <h3>HEADLINE EXAMPLE</h3>
+      <p>This is paragraph copy using Space Grotesk. Designed to pair with warm, saturated hues.</p>
+      <button class=""cta-button"" style=""background:#FFC42C; color:#000;"">SHOP COLLECTION</button>
+    </div>
+  </div>
+
+  <div class=""brand-kit"">
+    <h2>⚠️ Lab Warning</h2>
+    <div class=""font-preview"">Headlines: Bebas Neue / Body: Space Grotesk</div>
+    <div class=""palette"">
+      <div class=""swatch danger-black"">#0A0A0A</div>
+      <div class=""swatch danger-yellow"">#FFF200</div>
+      <div class=""swatch danger-pink"">#FF006E</div>
+      <div class=""swatch danger-gray"">#2E2E2E</div>
+    </div>
+    <div class=""sample-text"">
+      <h3>HEADLINE EXAMPLE</h3>
+      <p>This variant plays for a loud brand! Think hype drops and launch campaigns.</p>
+      <button class=""cta-button"" style=""background:#FF006E; color:#fff;"">SEE WHAT'S HOT</button>
+    </div>
+  </div>
+
+</body>
+</html>
+<!-- /wp:html -->"
+158,News,"<!-- wp:group {""metadata"":{""categories"":[""posts""],""patternName"":""core/query-offset-posts"",""name"":""Offset""},""style"":{""spacing"":{""padding"":{""top"":""30px"",""right"":""30px"",""bottom"":""30px"",""left"":""30px""}}},""layout"":{""inherit"":false}} -->
+<div class=""wp-block-group"" style=""padding-top:30px;padding-right:30px;padding-bottom:30px;padding-left:30px""><!-- wp:query {""queryId"":1,""query"":{""perPage"":30,""pages"":0,""offset"":0,""postType"":""post"",""order"":""desc"",""orderBy"":""date"",""author"":"""",""search"":"""",""exclude"":[],""sticky"":"""",""inherit"":false},""metadata"":{""categories"":[""posts""],""patternName"":""core/fullwidth-posts-titles-with-dates"",""name"":""Fullwidth posts titles with dates""},""align"":""full"",""layout"":{""type"":""default""}} -->
+<div class=""wp-block-query alignfull""><!-- wp:group {""align"":""full"",""style"":{""spacing"":{""padding"":{""top"":""0"",""right"":""var:preset|spacing|40"",""bottom"":""var:preset|spacing|40"",""left"":""var:preset|spacing|40""}}},""layout"":{""type"":""default""}} -->
+<div class=""wp-block-group alignfull"" style=""padding-top:0;padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)""><!-- wp:post-template {""align"":""full"",""style"":{""typography"":{""textTransform"":""none""}}} -->
+<!-- wp:group {""style"":{""spacing"":{""blockGap"":""0"",""padding"":{""bottom"":""var:preset|spacing|50""}}},""layout"":{""type"":""default""}} -->
+<div class=""wp-block-group"" style=""padding-bottom:var(--wp--preset--spacing--50)""><!-- wp:group {""style"":{""border"":{""bottom"":{""color"":""var:preset|color|contrast"",""width"":""4px""}},""spacing"":{""padding"":{""top"":""var:preset|spacing|30"",""right"":""0"",""bottom"":""var:preset|spacing|30"",""left"":""0""}}},""layout"":{""type"":""flex"",""flexWrap"":""nowrap"",""justifyContent"":""space-between""}} -->
+<div class=""wp-block-group"" style=""border-bottom-color:var(--wp--preset--color--contrast);border-bottom-width:4px;padding-top:var(--wp--preset--spacing--30);padding-right:0;padding-bottom:var(--wp--preset--spacing--30);padding-left:0""><!-- wp:post-date {""textAlign"":""left"",""format"":""m.j"",""style"":{""spacing"":{""margin"":{""top"":""0"",""right"":""0"",""bottom"":""0"",""left"":""0""}},""elements"":{""link"":{""color"":{""text"":""var:preset|color|contrast""}}},""typography"":{""letterSpacing"":""1px"",""fontSize"":""2rem"",""fontStyle"":""normal"",""fontWeight"":""600""}},""textColor"":""contrast""} /-->
+
+<!-- wp:post-date {""textAlign"":""left"",""format"":""Y"",""style"":{""spacing"":{""margin"":{""top"":""0"",""right"":""0"",""bottom"":""0"",""left"":""0""}},""elements"":{""link"":{""color"":{""text"":""var:preset|color|contrast""}}},""typography"":{""letterSpacing"":""1px"",""fontSize"":""2rem"",""fontStyle"":""normal"",""fontWeight"":""600""}},""textColor"":""contrast""} /--></div>
+<!-- /wp:group -->
+
+<!-- wp:post-title {""level"":1,""isLink"":true,""style"":{""layout"":{""selfStretch"":""fit""},""typography"":{""lineHeight"":""1.1"",""fontStyle"":""normal"",""fontWeight"":""600""},""elements"":{""link"":{""color"":{""text"":""var:preset|color|contrast""}}},""spacing"":{""padding"":{""top"":""var:preset|spacing|30""}}},""textColor"":""contrast""} /-->
+
+<!-- wp:group {""layout"":{""type"":""flex"",""flexWrap"":""nowrap""}} -->
+<div class=""wp-block-group""><!-- wp:read-more /--></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+<!-- /wp:post-template --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {""style"":{""spacing"":{""padding"":{""top"":""var:preset|spacing|40"",""bottom"":""var:preset|spacing|40"",""right"":""var:preset|spacing|40"",""left"":""var:preset|spacing|40""},""margin"":{""top"":""0"",""bottom"":""0""}}},""layout"":{""type"":""default""}} -->
+<div class=""wp-block-group"" style=""margin-top:0;margin-bottom:0;padding-top:var(--wp--preset--spacing--40);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--40);padding-left:var(--wp--preset--spacing--40)""><!-- wp:query-pagination {""layout"":{""type"":""flex"",""flexWrap"":""nowrap"",""justifyContent"":""space-between""}} -->
+<!-- wp:query-pagination-previous {""style"":{""typography"":{""fontSize"":""2rem"",""fontStyle"":""normal"",""fontWeight"":""600"",""textTransform"":""uppercase"",""letterSpacing"":""1px""}}} /-->
+
+<!-- wp:query-pagination-next {""style"":{""typography"":{""fontSize"":""2rem"",""fontStyle"":""normal"",""fontWeight"":""600"",""textTransform"":""uppercase"",""letterSpacing"":""1px""}}} /-->
+<!-- /wp:query-pagination --></div>
+<!-- /wp:group --></div>
+<!-- /wp:query --></div>
+<!-- /wp:group -->"
+160,"Website Components - UI Buttons","<!-- wp:html -->
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+  <meta charset=""UTF-8"" />
+  <title>Animated Button Gallery</title>
+  <style>
+    body {
+      background: #0f0f0f;
+      color: #fff;
+      font-family: 'Space Grotesk', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 3rem 1rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      background: linear-gradient(to right, #00f5a0, #00d9f5);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    .button-grid {
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      width: 100%;
+      max-width: 960px;
+    }
+
+    .button-card {
+      background: #1a1a1a;
+      border: 1px solid #333;
+      border-radius: 1rem;
+      padding: 2rem;
+      text-align: center;
+      transition: transform 0.2s ease;
+    }
+
+    .button-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .label {
+      font-size: 0.85rem;
+      color: #aaa;
+      margin-top: 1rem;
+      user-select: all;
+    }
+
+    /* === Button Styles === */
+
+    .btn-glitch {
+      position: relative;
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      background: #111;
+      border: 2px solid #00f5a0;
+      font-weight: 700;
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    .btn-glitch::before,
+    .btn-glitch::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -75%;
+      width: 50%;
+      height: 100%;
+      background: linear-gradient(120deg, transparent, #00f5a0, transparent);
+      transform: skewX(-45deg);
+      animation: glitch 2s infinite linear;
+    }
+
+    .btn-glitch::after {
+      animation-delay: 1s;
+    }
+
+    @keyframes glitch {
+      0% {
+        left: -75%;
+      }
+      100% {
+        left: 200%;
+      }
+    }
+
+    .btn-glass {
+      padding: 0.75rem 1.5rem;
+      background: rgba(255, 255, 255, 0.1);
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      backdrop-filter: blur(10px);
+      border-radius: 8px;
+      color: white;
+      transition: background 0.3s ease;
+    }
+
+    .btn-glass:hover {
+      background: rgba(255, 255, 255, 0.2);
+    }
+
+    .btn-jelly {
+      padding: 0.75rem 1.5rem;
+      background: #ff4f70;
+      color: white;
+      font-weight: bold;
+      border: none;
+      border-radius: 999px;
+      transition: transform 0.2s ease;
+    }
+
+    .btn-jelly:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>Creative Button Gallery</h1>
+
+  <div class=""button-grid"">
+    <div class=""button-card"">
+      <button class=""btn-glitch"">Glitch</button>
+      <div class=""label"">.btn-glitch</div>
+    </div>
+
+    <div class=""button-card"">
+      <button class=""btn-glass"">Glassmorphism</button>
+      <div class=""label"">.btn-glass</div>
+    </div>
+
+    <div class=""button-card"">
+      <button class=""btn-jelly"">Jelly Button</button>
+      <div class=""label"">.btn-jelly</div>
+    </div>
+  </div>
+</body>
+</html>
+<!-- /wp:html -->
+
+<!-- wp:spacer {""height"":""28px""} -->
+<div style=""height:28px"" aria-hidden=""true"" class=""wp-block-spacer""></div>
+<!-- /wp:spacer -->
+
+<!-- wp:html -->
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+  <meta charset=""UTF-8"" />
+  <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"" />
+  <title>Button Gallery – Case Study Labs</title>
+  <link href=""https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&display=swap"" rel=""stylesheet"">
+  <style>
+    body {
+      background: #0f0f0f;
+      color: #fff;
+      font-family: 'Space Grotesk', sans-serif;
+      padding: 2rem;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+    }
+    .button-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 2rem;
+    }
+    .card {
+      background: #1a1a1a;
+      padding: 2rem;
+      border-radius: 1rem;
+      text-align: center;
+      border: 1px solid #333;
+    }
+    .card code {
+      display: block;
+      margin-top: 1rem;
+      color: #aaa;
+      font-size: 0.85rem;
+    }
+
+    .btn {
+      padding: 0.75rem 1.5rem;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .btn-pulse {
+      background: #14b8a6; color: #fff; border-radius: 8px;
+      animation: pulse 1.5s infinite;
+    }
+    @keyframes pulse {
+      0% { transform: scale(1); box-shadow: 0 0 0 0 rgba(20, 184, 166, 0.4); }
+      70% { transform: scale(1.05); box-shadow: 0 0 0 15px rgba(20, 184, 166, 0); }
+      100% { transform: scale(1); box-shadow: 0 0 0 0 rgba(20, 184, 166, 0); }
+    }
+
+    .btn-shadow-pop {
+      background: #6366f1; color: white; border-radius: 6px;
+      box-shadow: 0 0 0 0 transparent;
+      transition: all 0.2s ease;
+    }
+    .btn-shadow-pop:hover {
+      box-shadow: 4px 4px 0 #18181b;
+      transform: translate(-4px, -4px);
+    }
+
+    .btn-frosted-glass {
+      background: rgba(255,255,255,0.1); color: white;
+      border: 1px solid rgba(255,255,255,0.2);
+      backdrop-filter: blur(12px);
+      border-radius: 12px;
+    }
+
+    .btn-wiggle {
+      background: #eab308; color: #111; border-radius: 999px;
+    }
+    .btn-wiggle:hover {
+      animation: wiggle 0.3s ease-in-out;
+    }
+    @keyframes wiggle {
+      0% { transform: rotate(0); }
+      25% { transform: rotate(2deg); }
+      50% { transform: rotate(-2deg); }
+      75% { transform: rotate(1deg); }
+      100% { transform: rotate(0); }
+    }
+
+    .btn-noise {
+      background: #000; color: white; position: relative;
+      border: 1px solid white;
+    }
+    .btn-noise::before {
+      content: """";
+      position: absolute;
+      inset: 0;
+      background-image: url('https://grainy-gradients.vercel.app/noise.svg');
+      mix-blend-mode: screen;
+      opacity: 0.3;
+      pointer-events: none;
+    }
+
+    .btn-glow {
+      background: black; color: #0ff;
+      border: 1px solid #0ff;
+      text-shadow: 0 0 5px #0ff;
+      box-shadow: 0 0 8px #0ff;
+    }
+
+    .btn-slice {
+      position: relative;
+      background: transparent;
+      color: white;
+      border: 2px solid white;
+      overflow: hidden;
+    }
+    .btn-slice span {
+      position: relative; z-index: 2;
+    }
+    .btn-slice::before {
+      content: """";
+      position: absolute;
+      width: 200%;
+      height: 100%;
+      background: #9333ea;
+      top: 0; left: -100%;
+      transform: skewX(-45deg);
+      transition: all 0.3s ease;
+      z-index: 1;
+    }
+    .btn-slice:hover::before {
+      left: 0;
+    }
+
+    .btn-magnetic {
+      background: #0f172a; color: white; border-radius: 6px;
+      transition: transform 0.2s ease;
+    }
+    .btn-magnetic:hover {
+      transform: scale(1.05);
+    }
+
+    .btn-ghost-outline {
+      background: transparent; border: 1px dashed #aaa; color: #aaa;
+    }
+    .btn-ghost-outline:hover {
+      color: #fff; border-color: #fff;
+    }
+
+    .btn-gradient-border {
+      background: #111; color: white;
+      border: 2px solid;
+      border-image: linear-gradient(to right, #ec4899, #8b5cf6) 1;
+    }
+
+    .btn-neon {
+      background: black; color: #0f0;
+      border: 2px solid #0f0;
+      box-shadow: 0 0 5px #0f0, 0 0 10px #0f0;
+    }
+
+    .btn-soft-shadow {
+      background: #fafafa; color: #111;
+      border-radius: 8px;
+      box-shadow: 2px 4px 12px rgba(0,0,0,0.05);
+    }
+
+    .btn-sticker {
+      background: #f43f5e; color: white;
+      clip-path: polygon(0 0, 95% 0, 100% 10%, 100% 100%, 0 100%);
+    }
+
+    .btn-pixel {
+      background: #000; color: white;
+      font-family: monospace;
+      border: 2px solid #0ff;
+      box-shadow: 4px 4px 0 #0ff;
+    }
+
+    .btn-metallic {
+      background: linear-gradient(to right, #aaa, #fff, #aaa);
+      color: #111;
+      border: 1px solid #ccc;
+      text-shadow: 0 1px 0 #fff;
+    }
+
+    .btn-inset {
+      background: #fff; color: #111;
+      box-shadow: inset 2px 2px 5px rgba(0,0,0,0.15);
+    }
+
+    .btn-text-link {
+      background: none;
+      border: none;
+      color: #3b82f6;
+      text-decoration: underline;
+      font-size: 1rem;
+      padding: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class=""button-grid"">
+    <div class=""card""><button class=""btn btn-pulse"">Pulse</button><code>.btn-pulse</code></div>
+    <div class=""card""><button class=""btn btn-shadow-pop"">Shadow Pop</button><code>.btn-shadow-pop</code></div>
+    <div class=""card""><button class=""btn btn-frosted-glass"">Glass</button><code>.btn-frosted-glass</code></div>
+    <div class=""card""><button class=""btn btn-wiggle"">Wiggle</button><code>.btn-wiggle</code></div>
+    <div class=""card""><button class=""btn btn-noise"">Noise</button><code>.btn-noise</code></div>
+    <div class=""card""><button class=""btn btn-glow"">Glow</button><code>.btn-glow</code></div>
+    <div class=""card""><button class=""btn btn-slice""><span>Sliced</span></button><code>.btn-slice</code></div>
+    <div class=""card""><button class=""btn btn-magnetic"">Magnetic</button><code>.btn-magnetic</code></div>
+    <div class=""card""><button class=""btn btn-ghost-outline"">Ghost</button><code>.btn-ghost-outline</code></div>
+    <div class=""card""><button class=""btn btn-gradient-border"">Gradient Border</button><code>.btn-gradient-border</code></div>
+    <div class=""card""><button class=""btn btn-neon"">Neon</button><code>.btn-neon</code></div>
+    <div class=""card""><button class=""btn btn-soft-shadow"">Soft Shadow</button><code>.btn-soft-shadow</code></div>
+    <div class=""card""><button class=""btn btn-sticker"">Sticker</button><code>.btn-sticker</code></div>
+    <div class=""card""><button class=""btn btn-pixel"">Pixel</button><code>.btn-pixel</code></div>
+    <div class=""card""><button class=""btn btn-metallic"">Metal</button><code>.btn-metallic</code></div>
+    <div class=""card""><button class=""btn btn-inset"">Inset</button><code>.btn-inset</code></div>
+    <div class=""card""><button class=""btn btn-text-link"">Text Link →</button><code>.btn-text-link</code></div>
+  </div>
+</body>
+</html>
+
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->"
+172,"Variable State UI","<!-- wp:html -->
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+  <meta charset=""UTF-8"" />
+  <meta name=""viewport"" content=""width=device-width, initial-scale=1.0""/>
+  <title>Variable State | Case Study Labs</title>
+  <style>
+    :root {
+      --bg: #121212;
+      --text: #e0e0e0;
+      --accent: #ffee33;
+      --purple: #b983ff;
+      --blue: #4fc3f7;
+      --highlight: #3f3f3f;
+      --hover: #292929;
+      --font-mono: 'Courier New', monospace;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      padding: 3rem 2rem;
+      border-bottom: 1px solid #333;
+    }
+
+    header h1 {
+      color: var(--accent);
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #aaa;
+    }
+
+    main {
+      padding: 2rem;
+      max-width: 900px;
+      margin: 0 auto;
+    }
+
+    section {
+      margin: 0 0 4rem 0;
+      padding: 1.5rem;
+      border-radius: 12px;
+      transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+      border: 2px solid transparent;
+      box-sizing: border-box;
+    }
+
+    section:hover {
+      transform: translateX(-8px);
+      box-shadow: inset 0 0 12px rgba(255, 255, 255, 0.1), 0 0 15px rgba(0,0,0,0.4);
+      border-image-slice: 1;
+      border-width: 2px;
+      border-style: solid;
+      border-image-source: linear-gradient(135deg, var(--blue), var(--purple), var(--accent));
+    }
+
+    section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .code-block {
+      background: var(--highlight);
+      padding: 1rem;
+      border-radius: 5px;
+      font-family: var(--font-mono);
+      font-size: 0.9rem;
+      overflow-x: auto;
+      transition: background 0.3s ease;
+    }
+
+    .code-block:hover {
+      background: #2b2b2b;
+    }
+
+    .label {
+      font-family: var(--font-mono);
+      background: #222;
+      color: var(--accent);
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      display: inline-block;
+      margin-bottom: 1rem;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.6s ease-out forwards;
+    }
+
+    .fade-in.delay-1 { animation-delay: 0.2s; }
+
+    section h2.purple { color: var(--purple); }
+    section h2.blue { color: var(--blue); }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 768px) {
+      main {
+        padding: 1rem;
+      }
+
+      section {
+        padding: 1rem;
+        transform: none !important;
+        box-shadow: none !important;
+        border: 1px solid #333 !important;
+      }
+    }
+
+    .firefly-text span {
+      display: inline-block;
+      animation: flicker 2s infinite;
+    }
+    .firefly-text span:nth-child(3n) { color: var(--purple); animation-delay: 0.3s; }
+    .firefly-text span:nth-child(4n) { color: var(--blue); animation-delay: 0.5s; }
+    .firefly-text span:nth-child(5n) { color: var(--accent); animation-delay: 0.7s; }
+
+    @keyframes flicker {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(1.2); }
+    }
+  </style>
+
+</head>
+<body>
+  <header class=""fade-in"">
+    <h1>Variable State</h1>
+    <p>Built to inspire. Designed to debug your brand narrative.</p>
+  </header>
+<head>
+<body>
+  <main>
+    <section class=""fade-in delay-1"">
+      <div class=""label"">SECTION ONE</div>
+      <h2 class=""purple"">Intro to the System</h2>
+      <p class=""firefly-text"">
+        <span>W</span><span>e</span><span>'</span><span>r</span><span>e</span> <span>a</span><span>l</span><span>l</span> <span>v</span><span>a</span><span>r</span><span>i</span><span>a</span><span>b</span><span>l</span><span>e</span><span>s</span> <span>i</span><span>n</span> <span>a</span> <span>c</span><span>o</span><span>n</span><span>t</span><span>e</span><span>x</span><span>t</span> <span>s</span><span>h</span><span>i</span><span>f</span><span>t</span>.
+      </p>
+      <div class=""code-block"">
+        const greet = () => console.log('Welcome to Case Study Labs');
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const context = new (window.AudioContext || window.webkitAudioContext)();
+
+    function triggerSynth(freq = 440) {
+      const osc = context.createOscillator();
+      const gain = context.createGain();
+      osc.type = 'triangle';
+      osc.frequency.value = freq;
+      gain.gain.setValueAtTime(0.15, context.currentTime);
+      gain.gain.exponentialRampToValueAtTime(0.001, context.currentTime + 0.4);
+      osc.connect(gain).connect(context.destination);
+      osc.start();
+      osc.stop(context.currentTime + 0.4);
+    }
+
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('section').forEach((section, i) => {
+        section.addEventListener('click', () => {
+          const base = 220;
+          const note = base * Math.pow(2, i / 12);
+          triggerSynth(note);
+        });
+      });
+    });
+  </script>
+
+  <main>
+    <section class=""fade-in delay-1"">
+      <div class=""label"">SECTION TWO</div>
+      <h2 class=""blue"">Process</h2>
+      <p>We don’t just build brands. We engineer interface-level clarity. What you’re seeing isn’t lorem ipsum — it’s what happens when a CSS variable gets a personality.</p>
+      <div class=""code-block"">
+        const greet = () =&gt; console.log('Welcome to Case Study Labs');
+      </div>
+    </section>
+
+    <section class=""fade-in delay-2"">
+      <div class=""label"">SECTION THREE</div>
+      <h2 class=""purple"">Core Features</h2>
+      <p>Strategy in the front, execution in the back-end. This isn’t a template — it’s a pattern library for the way we think.</p>
+      <div class=""code-block"">
+        fetch('/clarity')<br>
+        &nbsp;&nbsp;.then(res =&gt; res.json())<br>
+        &nbsp;&nbsp;.then(brand =&gt; console.log(brand.positioning));
+      </div>
+    </section>
+
+    <section class=""fade-in delay-3"">
+      <div class=""label"">SECTION FOUR</div>
+      <h2 class=""blue"">unit</h2>
+      <p>This determines how bold your bullshit is rendered. Use responsibly.</p>
+      <div class=""code-block"">
+        &lt;script src=""containing a valid CSS measurement of confidence""&gt;&lt;/script&gt;
+      </div>
+    </section>
+
+
+    <section class=""fade-in delay-5"">
+      <div class=""label"">SECTION FIVE</div>
+      <h2 class=""purple"">Actual CSS</h2>
+      <div class=""code-block"">
+        section h2.purple { color: var(--purple); }<br>
+        section h2.blue { color: var(--blue); }<br>
+        .code-block { background: var(--highlight); font-family: var(--font-mono); }<br>
+        .label { background: #222; color: var(--accent); }
+      </div>
+      <p>This stylesheet read your mood and adjusted accordingly. Don’t ask how — it’s a trade secret.</p>
+    </section>
+  </main>
+
+  <script>
+    // Trigger animations on load
+    window.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.fade-in').forEach(el => {
+        el.classList.add('visible');
+      });
+    });
+  </script>
+</body>
+</html>
+<!-- /wp:html -->"
+197,"Color System","<!-- wp:html -->
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+  <meta charset=""UTF-8"">
+  <title>Case Study Labs Color System</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 2rem;
+      background: #fafafa;
+      color: #121212;
+    }
+
+    h1, h2 {
+      margin-top: 2rem;
+      font-weight: 700;
+    }
+
+    .color-group {
+      margin-bottom: 3rem;
+    }
+
+    .swatches {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+      margin-top: 1rem;
+    }
+
+    .swatch {
+      width: 80px;
+      height: 80px;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 10px;
+      color: #fff;
+      font-weight: 500;
+      box-shadow: 0 0 0 1px #ccc;
+    }
+
+    .swatch span {
+      transform: rotate(-45deg);
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Case Study Labs – Color System</h1>
+
+  <div class=""color-group"">
+    <h2>Action</h2>
+    <div class=""swatches"">
+      <div class=""swatch"" style=""background:#f5f0ff;""><span>100</span></div>
+      <div class=""swatch"" style=""background:#d8caff;""><span>200</span></div>
+      <div class=""swatch"" style=""background:#a58aff;""><span>300</span></div>
+      <div class=""swatch"" style=""background:#7044ff;""><span>400</span></div>
+      <div class=""swatch"" style=""background:#4a1fff;""><span>500</span></div>
+      <div class=""swatch"" style=""background:#3500cc;""><span>600</span></div>
+      <div class=""swatch"" style=""background:#230099;""><span>700</span></div>
+    </div>
+  </div>
+
+  <div class=""color-group"">
+    <h2>Accent</h2>
+    <div class=""swatches"">
+      <div class=""swatch"" style=""background:#e6f2ff;""><span>100</span></div>
+      <div class=""swatch"" style=""background:#b3d9ff;""><span>200</span></div>
+      <div class=""swatch"" style=""background:#66b2ff;""><span>300</span></div>
+      <div class=""swatch"" style=""background:#1a8cff;""><span>400</span></div>
+      <div class=""swatch"" style=""background:#0066cc;""><span>500</span></div>
+      <div class=""swatch"" style=""background:#004c99;""><span>600</span></div>
+      <div class=""swatch"" style=""background:#003366;""><span>700</span></div>
+    </div>
+  </div>
+
+  <div class=""color-group"">
+    <h2>Neutral</h2>
+    <div class=""swatches"">
+      <div class=""swatch"" style=""background:#f8f9fa; color:#000;""><span>100</span></div>
+      <div class=""swatch"" style=""background:#e0e0e0; color:#000;""><span>200</span></div>
+      <div class=""swatch"" style=""background:#bdbdbd; color:#000;""><span>300</span></div>
+      <div class=""swatch"" style=""background:#9e9e9e;""><span>400</span></div>
+      <div class=""swatch"" style=""background:#616161;""><span>500</span></div>
+      <div class=""swatch"" style=""background:#424242;""><span>600</span></div>
+      <div class=""swatch"" style=""background:#212121;""><span>700</span></div>
+    </div>
+  </div>
+
+  <div class=""color-group"">
+    <h2>Feedback — Success / Warning / Error / Info</h2>
+    <div class=""swatches"">
+      <div class=""swatch"" style=""background:#e6f9ed; color:#000;""><span>Success 100</span></div>
+      <div class=""swatch"" style=""background:#00c853;""><span>Success 500</span></div>
+      <div class=""swatch"" style=""background:#007e3a;""><span>Success 700</span></div>
+
+      <div class=""swatch"" style=""background:#fff8e1; color:#000;""><span>Warning 100</span></div>
+      <div class=""swatch"" style=""background:#ffc107;""><span>Warning 500</span></div>
+      <div class=""swatch"" style=""background:#ff8f00;""><span>Warning 700</span></div>
+
+      <div class=""swatch"" style=""background:#ffebee; color:#000;""><span>Error 100</span></div>
+      <div class=""swatch"" style=""background:#f44336;""><span>Error 500</span></div>
+      <div class=""swatch"" style=""background:#c62828;""><span>Error 700</span></div>
+
+      <div class=""swatch"" style=""background:#e3f2fd; color:#000;""><span>Info 100</span></div>
+      <div class=""swatch"" style=""background:#2196f3;""><span>Info 500</span></div>
+      <div class=""swatch"" style=""background:#1565c0;""><span>Info 700</span></div>
+    </div>
+  </div>
+
+</body>
+</html>
+
+<!-- /wp:html -->
+
+<!-- wp:paragraph -->
+<p></p>
+<!-- /wp:paragraph -->"
+199,"skyworld demo","<!-- wp:html -->
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+    <meta charset=""UTF-8"">
+    <meta name=""viewport"" content=""width=device-width, initial-scale=1.0"">
+    <title>Skyworld Cannabis - Age Verification Required</title>
+    <link href=""https://fonts.googleapis.com/css2?family=Prompt:wght@200;300;400;500;600&display=swap"" rel=""stylesheet"">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Prompt', sans-serif;
+            background: linear-gradient(135deg, #000000 0%, #1a1100 25%, #2d1f00 50%, #1a1100 75%, #000000 100%);
+            background-size: 400% 400%;
+            animation: subtleGradientShift 30s ease infinite;
+            overflow-x: hidden;
+            cursor: none;
+            color: #f5f5f5;
+            min-height: 100vh;
+        }
+
+        @keyframes subtleGradientShift {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        /* Custom Cursor */
+        .cursor {
+            position: fixed;
+            width: 20px;
+            height: 20px;
+            border: 1px solid #ff8c00;
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 9999;
+            transition: all 0.1s ease;
+            opacity: 0.8;
+        }
+
+        .cursor::after {
+            content: '*';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #ff8c00;
+            font-size: 12px;
+        }
+
+        /* Floating Asterisks */
+        .floating-asterisk {
+            position: absolute;
+            font-size: 20px;
+            color: #ff8c00;
+            pointer-events: none;
+            backdrop-filter: blur(8px);
+            background: rgba(255, 140, 0, 0.05);
+            border: 1px solid rgba(255, 140, 0, 0.15);
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: elegantFloat 12s ease-in-out infinite;
+            box-shadow: 0 8px 32px rgba(255, 140, 0, 0.08);
+        }
+
+        @keyframes elegantFloat {
+            0%, 100% { 
+                transform: translateY(0px) rotate(0deg);
+                opacity: 0.4;
+            }
+            50% { 
+                transform: translateY(-40px) rotate(360deg);
+                opacity: 0.8;
+            }
+        }
+
+        /* Hero Section */
+        .hero {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            padding: 2rem;
+        }
+
+        .verification-container {
+            backdrop-filter: blur(25px);
+            background: rgba(0, 0, 0, 0.6);
+            border: 2px solid rgba(255, 140, 0, 0.3);
+            border-radius: 20px;
+            padding: 3rem 2.5rem;
+            text-align: center;
+            box-shadow: 0 25px 80px rgba(0, 0, 0, 0.4);
+            position: relative;
+            z-index: 10;
+            max-width: 600px;
+            width: 100%;
+        }
+
+        .logo {
+            font-size: 3.2rem;
+            font-weight: 300;
+            letter-spacing: 6px;
+            background: linear-gradient(135deg, #ff8c00 0%, #00bfff 30%, #ff8c00 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 1.5rem;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            text-transform: uppercase;
+            position: relative;
+        }
+
+        .logo::after {
+            content: '';
+            position: absolute;
+            bottom: -8px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #ff8c00, #00bfff);
+            transition: width 0.4s ease;
+        }
+
+        .logo:hover::after {
+            width: 80%;
+        }
+
+        .logo:hover {
+            transform: scale(1.02);
+            filter: drop-shadow(0 0 25px rgba(0, 191, 255, 0.3));
+        }
+
+        .age-verification-text {
+            font-size: 1.4rem;
+            color: #ffffff;
+            margin-bottom: 1.5rem;
+            font-weight: 400;
+            line-height: 1.6;
+        }
+
+        .legal-notice {
+            font-size: 0.95rem;
+            color: rgba(245, 245, 245, 0.8);
+            margin-bottom: 2rem;
+            line-height: 1.6;
+            font-weight: 300;
+        }
+
+        .age-buttons {
+            display: flex;
+            gap: 2rem;
+            justify-content: center;
+            margin-bottom: 2rem;
+        }
+
+        .age-btn {
+            padding: 1rem 2.5rem;
+            font-size: 1.1rem;
+            backdrop-filter: blur(10px);
+            border: 2px solid;
+            border-radius: 50px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            font-family: 'Prompt', sans-serif;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .age-btn.yes {
+            background: rgba(0, 191, 255, 0.1);
+            border-color: rgba(0, 191, 255, 0.4);
+            color: #00bfff;
+        }
+
+        .age-btn.yes:hover {
+            background: rgba(0, 191, 255, 0.2);
+            border-color: rgba(0, 191, 255, 0.7);
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(0, 191, 255, 0.3);
+        }
+
+        .age-btn.no {
+            background: rgba(255, 140, 0, 0.1);
+            border-color: rgba(255, 140, 0, 0.4);
+            color: #ff8c00;
+        }
+
+        .age-btn.no:hover {
+            background: rgba(255, 140, 0, 0.2);
+            border-color: rgba(255, 140, 0, 0.7);
+            transform: translateY(-3px);
+            box-shadow: 0 15px 40px rgba(255, 140, 0, 0.3);
+        }
+
+        .age-btn::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+            transition: left 0.6s ease;
+        }
+
+        .age-btn:hover::before {
+            left: 100%;
+        }
+
+        .disclaimer {
+            font-size: 0.85rem;
+            color: rgba(245, 245, 245, 0.6);
+            line-height: 1.5;
+            font-weight: 300;
+            border-top: 1px solid rgba(255, 140, 0, 0.2);
+            padding-top: 1.5rem;
+            margin-top: 1.5rem;
+        }
+
+        /* Easter Eggs - Hidden Elements */
+        .easter-egg {
+            position: absolute;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            opacity: 0.03;
+            backdrop-filter: blur(5px);
+            background: rgba(255, 140, 0, 0.03);
+            border: 1px solid rgba(255, 140, 0, 0.08);
+            border-radius: 50%;
+            width: 35px;
+            height: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+
+        .easter-egg:hover {
+            opacity: 0.9;
+            transform: scale(1.2);
+            background: rgba(255, 140, 0, 0.2);
+            border-color: rgba(255, 140, 0, 0.5);
+            box-shadow: 0 10px 30px rgba(255, 140, 0, 0.3);
+        }
+
+        .leaf-1 {
+            top: 12%;
+            left: 8%;
+            animation: gentleSpin 20s linear infinite;
+        }
+
+        .leaf-2 {
+            top: 18%;
+            right: 10%;
+            animation: subtlePulse 8s ease-in-out infinite;
+        }
+
+        .leaf-3 {
+            bottom: 15%;
+            left: 15%;
+            animation: softWiggle 12s ease-in-out infinite;
+        }
+
+        .crystal {
+            top: 70%;
+            right: 20%;
+            animation: refinedSparkle 6s ease-in-out infinite;
+        }
+
+        .eye {
+            top: 30%;
+            left: 88%;
+            animation: mysticalBlink 10s ease-in-out infinite;
+        }
+
+        @keyframes gentleSpin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        @keyframes subtlePulse {
+            0%, 100% { transform: scale(1); opacity: 0.03; }
+            50% { transform: scale(1.1); opacity: 0.12; }
+        }
+
+        @keyframes softWiggle {
+            0%, 100% { transform: rotate(0deg); }
+            25% { transform: rotate(3deg); }
+            75% { transform: rotate(-3deg); }
+        }
+
+        @keyframes refinedSparkle {
+            0%, 100% { opacity: 0.03; filter: brightness(1); }
+            50% { opacity: 0.15; filter: brightness(1.4); }
+        }
+
+        @keyframes mysticalBlink {
+            0%, 90%, 100% { opacity: 0.03; }
+            95% { opacity: 0.2; }
+        }
+
+        /* Secret Portal */
+        .secret-portal {
+            position: absolute;
+            bottom: 5%;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(0, 191, 255, 0.1), rgba(255, 140, 0, 0.2));
+            backdrop-filter: blur(15px);
+            border: 2px solid rgba(0, 191, 255, 0.3);
+            opacity: 0;
+            cursor: pointer;
+            transition: all 0.6s ease;
+            animation: portalPulse 8s ease-in-out infinite;
+        }
+
+        .secret-portal.revealed {
+            opacity: 0.5;
+        }
+
+        .secret-portal:hover {
+            opacity: 1;
+            transform: translateX(-50%) scale(1.3);
+            box-shadow: 0 0 60px rgba(0, 191, 255, 0.4);
+        }
+
+        @keyframes portalPulse {
+            0%, 100% { box-shadow: 0 0 20px rgba(0, 191, 255, 0.2); }
+            50% { box-shadow: 0 0 40px rgba(0, 191, 255, 0.5); }
+        }
+
+        /* Discovery Counter */
+        .discovery-counter {
+            position: fixed;
+            top: 30px;
+            right: 30px;
+            color: #00bfff;
+            font-size: 1rem;
+            font-weight: 400;
+            z-index: 1000;
+            opacity: 0;
+            transition: opacity 0.5s ease;
+            backdrop-filter: blur(10px);
+            background: rgba(0, 0, 0, 0.4);
+            padding: 12px 24px;
+            border-radius: 25px;
+            border: 1px solid rgba(0, 191, 255, 0.3);
+            letter-spacing: 1px;
+        }
+
+        .discovery-counter.visible {
+            opacity: 1;
+        }
+
+        /* Enlightenment Modal */
+        .enlightenment-modal {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            backdrop-filter: blur(30px);
+            background: rgba(0, 0, 0, 0.85);
+            color: #00bfff;
+            padding: 3rem;
+            border-radius: 25px;
+            text-align: center;
+            z-index: 2000;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.6s ease;
+            border: 2px solid rgba(0, 191, 255, 0.4);
+            box-shadow: 0 30px 100px rgba(0, 0, 0, 0.6);
+            max-width: 500px;
+            width: 90%;
+        }
+
+        .enlightenment-modal.show {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .enlightenment-modal h2 {
+            font-size: 2.2rem;
+            margin-bottom: 1.5rem;
+            font-weight: 400;
+            background: linear-gradient(135deg, #00bfff, #ff8c00);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .enlightenment-modal p {
+            margin-bottom: 1.2rem;
+            line-height: 1.7;
+            font-size: 1.1rem;
+            color: rgba(245, 245, 245, 0.9);
+            font-weight: 300;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            background: none;
+            border: none;
+            color: #00bfff;
+            font-size: 1.8rem;
+            cursor: pointer;
+            opacity: 0.7;
+            transition: opacity 0.3s ease;
+        }
+
+        .close-btn:hover {
+            opacity: 1;
+        }
+
+        /* Exit Warning */
+        .exit-warning {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            backdrop-filter: blur(25px);
+            background: rgba(0, 0, 0, 0.9);
+            color: #ff8c00;
+            padding: 2.5rem;
+            border-radius: 20px;
+            text-align: center;
+            z-index: 3000;
+            opacity: 0;
+            pointer-events: none;
+            transition: all 0.5s ease;
+            border: 2px solid rgba(255, 140, 0, 0.4);
+            max-width: 400px;
+            width: 90%;
+        }
+
+        .exit-warning.show {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .exit-warning h3 {
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .exit-warning p {
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+            font-weight: 300;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .verification-container {
+                padding: 2rem 1.5rem;
+                margin: 1rem;
+            }
+            .logo {
+                font-size: 2.2rem;
+                letter-spacing: 3px;
+            }
+            .age-verification-text {
+                font-size: 1.2rem;
+            }
+            .age-buttons {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            .age-btn {
+                font-size: 1rem;
+                padding: 1rem 2rem;
+            }
+            .enlightenment-modal {
+                padding: 2rem;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .age-buttons {
+                gap: 0.8rem;
+            }
+            .age-btn {
+                font-size: 0.9rem;
+                padding: 0.8rem 1.5rem;
+                letter-spacing: 1px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class=""cursor""></div>
+    
+    <div class=""discovery-counter"">
+        * <span id=""discoveryCount"">0</span>/5 Hidden Elements
+    </div>
+
+    <div class=""hero"">
+        <!-- Floating Asterisks -->
+        <div class=""floating-asterisk"" style=""top: 15%; left: 10%; animation-delay: 0s;"">*</div>
+        <div class=""floating-asterisk"" style=""top: 25%; left: 85%; animation-delay: 2s;"">*</div>
+        <div class=""floating-asterisk"" style=""top: 75%; left: 12%; animation-delay: 4s;"">*</div>
+        <div class=""floating-asterisk"" style=""top: 65%; left: 88%; animation-delay: 6s;"">*</div>
+        <div class=""floating-asterisk"" style=""top: 45%; left: 5%; animation-delay: 1s;"">*</div>
+        <div class=""floating-asterisk"" style=""top: 35%; left: 92%; animation-delay: 3s;"">*</div>
+        <div class=""floating-asterisk"" style=""top: 85%; left: 45%; animation-delay: 5s;"">*</div>
+
+        <div class=""verification-container"">
+            <!-- Logo -->
+            <h1 class=""logo"" id=""mainLogo"">Skyworld</h1>
+            
+            <!-- Age Verification -->
+            <div class=""age-verification-text"">
+                Age Verification Required
+            </div>
+            
+            <div class=""legal-notice"">
+                This website contains information about cannabis products intended for adults 21 years of age or older. 
+                By entering this site, you certify that you are of legal age to purchase cannabis products in your jurisdiction.
+            </div>
+            
+            <!-- Age Buttons -->
+            <div class=""age-buttons"">
+                <button class=""age-btn yes"" onclick=""enterSite()"">I am 21 or Older</button>
+                <button class=""age-btn no"" onclick=""exitSite()"">I am Under 21</button>
+            </div>
+            
+            <div class=""disclaimer"">
+                Cannabis products have not been evaluated by the FDA. This product is not for use by minors, women who are pregnant or breastfeeding, or individuals with medical conditions. Keep out of reach of children and pets.
+            </div>
+        </div>
+
+        <!-- Hidden Easter Eggs -->
+        <div class=""easter-egg leaf-1"" onclick=""foundEgg(1)"">🍃</div>
+        <div class=""easter-egg leaf-2"" onclick=""foundEgg(2)"">🌿</div>
+        <div class=""easter-egg leaf-3"" onclick=""foundEgg(3)"">🍀</div>
+        <div class=""easter-egg crystal"" onclick=""foundEgg(4)"">💎</div>
+        <div class=""easter-egg eye"" onclick=""foundEgg(5)"">👁️</div>
+
+        <!-- Secret Portal -->
+        <div class=""secret-portal"" id=""secretPortal"" onclick=""openSecretPortal()""></div>
+    </div>
+
+    <!-- Enlightenment Modal -->
+    <div class=""enlightenment-modal"" id=""enlightenmentModal"">
+        <button class=""close-btn"" onclick=""closeModal()"">&times;</button>
+        <h2>* Enlightenment Achieved *</h2>
+        <p>Your perceptive exploration has revealed all hidden elements.</p>
+        <p>You have demonstrated the awareness worthy of our curated collection.</p>
+        <p>Welcome to the Skyworld experience.</p>
+    </div>
+
+    <!-- Exit Warning -->
+    <div class=""exit-warning"" id=""exitWarning"">
+        <h3>Age Restriction Notice</h3>
+        <p>You must be 21 or older to access this website.</p>
+        <p>Please return when you reach the legal age.</p>
+    </div>
+
+    <script>
+        let discoveryCount = 0;
+        const foundElements = new Set();
+        
+        // Custom cursor with asterisk
+        const cursor = document.querySelector('.cursor');
+        
+        document.addEventListener('mousemove', (e) => {
+            cursor.style.left = e.clientX - 10 + 'px';
+            cursor.style.top = e.clientY - 10 + 'px';
+        });
+
+        // Generate floating asterisks
+        function createFloatingAsterisk() {
+            const asterisk = document.createElement('div');
+            asterisk.className = 'floating-asterisk';
+            asterisk.innerHTML = '*';
+            asterisk.style.left = Math.random() * 100 + '%';
+            asterisk.style.top = Math.random() * 100 + '%';
+            asterisk.style.animationDelay = Math.random() * 12 + 's';
+            asterisk.style.animationDuration = Math.random() * 8 + 12 + 's';
+            
+            document.querySelector('.hero').appendChild(asterisk);
+            
+            setTimeout(() => {
+                asterisk.remove();
+            }, 20000);
+        }
+
+        setInterval(createFloatingAsterisk, 6000);
+
+        // Easter egg discovery
+        function foundEgg(eggNum) {
+            if (!foundElements.has(eggNum)) {
+                foundElements.add(eggNum);
+                discoveryCount++;
+                document.getElementById('discoveryCount').textContent = discoveryCount;
+                document.querySelector('.discovery-counter').classList.add('visible');
+                
+                // Visual feedback
+                const eggElement = event.target;
+                eggElement.style.opacity = '0.8';
+                eggElement.style.transform = 'scale(1.4)';
+                eggElement.style.background = 'rgba(0, 191, 255, 0.3)';
+                eggElement.style.borderColor = 'rgba(0, 191, 255, 0.6)';
+                eggElement.style.boxShadow = '0 0 30px rgba(0, 191, 255, 0.5)';
+                
+                setTimeout(() => {
+                    eggElement.style.opacity = '0.15';
+                    eggElement.style.transform = 'scale(1)';
+                }, 2000);
+
+                // Reveal portal when all found
+                if (discoveryCount === 5) {
+                    document.getElementById('secretPortal').classList.add('revealed');
+                }
+            }
+        }
+
+        // Secret portal
+        function openSecretPortal() {
+            if (discoveryCount === 5) {
+                document.getElementById('enlightenmentModal').classList.add('show');
+            }
+        }
+
+        function closeModal() {
+            document.getElementById('enlightenmentModal').classList.remove('show');
+        }
+
+        // Age verification functions
+        function enterSite() {
+            // Set age verification cookie/localStorage equivalent (in-memory for demo)
+            sessionStorage.setItem('ageVerified', 'true');
+            window.location.href = 'https://skyworldcannabis.com';
+        }
+
+        function exitSite() {
+            document.getElementById('exitWarning').classList.add('show');
+            setTimeout(() => {
+                // Redirect to appropriate exit page
+                window.location.href = 'https://www.google.com';
+            }, 3000);
+        }
+
+        // Logo interaction
+        let logoClicks = 0;
+        document.getElementById('mainLogo').addEventListener('click', () => {
+            logoClicks++;
+            if (logoClicks === 5) {
+                document.querySelectorAll('.floating-asterisk').forEach(asterisk => {
+                    asterisk.style.color = '#00bfff';
+                    asterisk.style.animation = 'elegantFloat 2s ease-in-out infinite';
+                });
+                setTimeout(() => {
+                    document.querySelectorAll('.floating-asterisk').forEach(asterisk => {
+                        asterisk.style.color = '#ff8c00';
+                        asterisk.style.animation = 'elegantFloat 12s ease-in-out infinite';
+                    });
+                }, 10000);
+                logoClicks = 0;
+            }
+        });
+
+        // Konami code easter egg
+        let konamiSequence = [];
+        const konamiCode = ['ArrowUp', 'ArrowUp', 'ArrowDown', 'ArrowDown', 'ArrowLeft', 'ArrowRight', 'ArrowLeft', 'ArrowRight', 'KeyB', 'KeyA'];
+        
+        document.addEventListener('keydown', (e) => {
+            konamiSequence.push(e.code);
+            if (konamiSequence.length > konamiCode.length) {
+                konamiSequence.shift();
+            }
+            
+            if (konamiSequence.join(',') === konamiCode.join(',')) {
+                document.body.style.filter = 'hue-rotate(180deg) saturate(150%)';
+                setTimeout(() => {
+                    document.body.style.filter = 'none';
+                }, 8000);
+            }
+        });
+
+        // Subtle parallax
+        document.addEventListener('mousemove', (e) => {
+            const mouseX = (e.clientX / window.innerWidth - 0.5) * 2;
+            const mouseY = (e.clientY / window.innerHeight - 0.5) * 2;
+            
+            document.querySelectorAll('.floating-asterisk').forEach((asterisk, index) => {
+                const speed = (index + 1) * 0.2;
+                const moveX = mouseX * speed;
+                const moveY = mouseY * speed;
+                asterisk.style.transform += ` translate(${moveX}px, ${moveY}px)`;
+            });
+        });
+
+        // Auto-hint after extended time
+        setTimeout(() => {
+            if (discoveryCount === 0) {
+                const firstEgg = document.querySelector('.leaf-1');
+                firstEgg.style.opacity = '0.25';
+                firstEgg.style.boxShadow = '0 0 25px rgba(0, 191, 255, 0.4)';
+                setTimeout(() => {
+                    firstEgg.style.opacity = '0.03';
+                    firstEgg.style.boxShadow = 'none';
+                }, 5000);
+            }
+        }, 60000);
+
+        // Entrance animation
+        window.addEventListener('load', () => {
+            document.querySelector('.verification-container').style.opacity = '0';
+            document.querySelector('.verification-container').style.transform = 'translateY(50px)';
+            
+            setTimeout(() => {
+                document.querySelector('.verification-container').style.transition = 'all 1.2s ease';
+                document.querySelector('.verification-container').style.opacity = '1';
+                document.querySelector('.verification-container').style.transform = 'translateY(0)';
+            }, 300);
+        });
+    </script>
+</body>
+</html>
+<!-- /wp:html -->"
+238,Strategy,
+240,"Branding &amp; Production",
+242,"Media Buying",
+244,"Web Design",
+246,"Content &amp; Social",
+248,"Lifecycle Marketing",
+266,Home,
+593,"Privacy Policy","<!-- wp:heading -->
+<h2 class=""wp-block-heading"">Terms of Service &amp; Privacy Policy for Case Study Labs</h2>
+<!-- /wp:heading -->
+
+<!-- wp:heading -->
+<h2 class=""wp-block-heading"">Terms of Service</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>Last Updated:</strong> August 21, 2025</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">1. Acceptance of Terms</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>By accessing and using the Case Study Labs website (casestudy-labs.com), you accept and agree to be bound by the terms and provision of this agreement. If you do not agree to abide by the above, please do not use this service.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">2. Description of Service</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Case Study Labs provides [describe your services - e.g., educational content, case studies, marketing materials, etc.]. We reserve the right to modify, suspend, or discontinue the service at any time without notice.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">3. User Responsibilities</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>You agree to:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class=""wp-block-list""><!-- wp:list-item -->
+<li>Provide accurate and complete information when required</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Use the service only for lawful purposes</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Not interfere with or disrupt the service or servers</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Not attempt to gain unauthorized access to any part of the service</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Respect intellectual property rights of all content</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">4. Intellectual Property</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>All content on Case Study Labs, including but not limited to text, graphics, logos, images, and software, is the property of Case Study Labs or its content suppliers and is protected by copyright and other intellectual property laws.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">5. User-Generated Content</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>If you submit content to our site, you grant Case Study Labs a non-exclusive, royalty-free, worldwide license to use, modify, and display such content for the purposes of providing our services.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">6. Disclaimers</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>THE SERVICE IS PROVIDED ""AS IS"" WITHOUT WARRANTIES OF ANY KIND. CASE STUDY LABS DISCLAIMS ALL WARRANTIES, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">7. Limitation of Liability</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>In no event shall Case Study Labs be liable for any indirect, incidental, special, or consequential damages arising out of or in connection with your use of the service.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">8. Indemnification</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>You agree to indemnify and hold harmless Case Study Labs from any claims, damages, or expenses arising from your use of the service or violation of these terms.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">9. Termination</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We reserve the right to terminate or suspend access to the service immediately, without prior notice, for any reason whatsoever.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">10. Governing Law</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>These terms shall be governed by the laws of New York, without regard to conflict of law principles.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">11. Changes to Terms</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We reserve the right to modify these terms at any time. Changes will be effective immediately upon posting to the website.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">12. Contact Information</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>For questions about these Terms of Service, please contact us at info@casestudy-labs.com</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class=""wp-block-separator has-alpha-channel-opacity""/>
+<!-- /wp:separator -->
+
+<!-- wp:heading -->
+<h2 class=""wp-block-heading"">Privacy Policy</h2>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>Last Updated:</strong> [Insert Date]</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">Introduction</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Case Study Labs (""we,"" ""our,"" or ""us"") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website casestudy-labs.com.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">Information We Collect</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>Personal Information:</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class=""wp-block-list""><!-- wp:list-item -->
+<li>Name and contact information when you voluntarily provide it</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Email addresses for newsletters or communications</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Any information you provide through contact forms or surveys</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p><strong>Automatically Collected Information:</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class=""wp-block-list""><!-- wp:list-item -->
+<li>IP address and browser information</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Pages visited and time spent on site</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Referring website information</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Device and operating system information</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">Analytics and Advertising Data at Case Study Labs</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>At Case Study Labs (casestudy-labs.com), we are committed to understanding how our visitors interact with our website so we can provide a better experience and more relevant information. To do this, we use Google Analytics, a web analytics service from Google, Inc. (""Google"").</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>In addition to standard website measurement, we have enabled Google Analytics Advertising Features to gain deeper insights and deliver more effective marketing.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>What Google Analytics Advertising Features Do We Use?</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>We have implemented the following features:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class=""wp-block-list""><!-- wp:list-item -->
+<li><strong>Remarketing with Google Analytics:</strong> This allows us to connect with users who have previously visited our website by showing them relevant ads on other sites across the internet through the Google Display Network.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Google Analytics Demographics and Interest Reporting:</strong> This provides us with anonymous, aggregated data about the general age, gender, and interests of our site visitors. This helps us better understand our audience without identifying individuals.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Google Display Network Impression Reporting:</strong> This helps us understand how ad views on the Google Display Network relate to visits and actions on our website.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p><strong>How We Use Cookies and Identifiers</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>To enable these features, our website uses Google Analytics to collect data via Google advertising cookies and identifiers.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class=""wp-block-list""><!-- wp:list-item -->
+<li>Case Study Labs and third-party vendors, including Google, use <strong>first-party cookies</strong> (like the Google Analytics cookie) and <strong>third-party cookies</strong> (like Google's advertising cookies) together. This combination allows us to analyze website traffic, report on the effectiveness of our advertising, and serve relevant ads to you based on your past visits.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p>It is our firm policy not to identify individual users or merge any personally identifiable information with the anonymous data collected through these advertising features without your explicit, opt-in consent.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Your Privacy Choices and How to Opt-Out</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p>We respect your privacy and provide several ways for you to control how your data is used:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class=""wp-block-list""><!-- wp:list-item -->
+<li><strong>Cookie Consent Manager:</strong> You can adjust your preferences for advertising and analytics cookies at any time through the cookie consent banner or settings link on our site.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Google Ad Settings:</strong> You have control over the ads you see from Google. You can opt out of personalized advertising by visiting Google's <strong>Ad Settings</strong>.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Industry Opt-Out:</strong> You can opt out of interest-based advertising from many ad networks, including Google, by visiting the <strong>Network Advertising Initiative (NAI) Consumer Opt-Out page</strong>.</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Google Analytics Browser Add-on:</strong> To completely prevent your data from being used by Google Analytics, you can install Google's official <strong><a href=""https://chromewebstore.google.com/detail/google-analytics-opt-out/"">opt-out browser add-on</a></strong>.</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">How We Use Your Information</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We use collected information to:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class=""wp-block-list""><!-- wp:list-item -->
+<li>Provide and improve our services</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Communicate with you about our services</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Analyze website usage and trends</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Comply with legal obligations</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Protect against fraud and abuse</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">Information Sharing</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We do not sell, trade, or rent your personal information to third parties. We may share information in the following circumstances:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class=""wp-block-list""><!-- wp:list-item -->
+<li>With service providers who assist in our operations</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>When required by law or to protect our rights</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>In connection with a business transfer or merger</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>With your explicit consent</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">Data Security</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We implement appropriate security measures to protect your information against unauthorized access, alteration, disclosure, or destruction. However, no internet transmission is completely secure, and we cannot guarantee absolute security.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">Your Rights</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Depending on your location, you may have rights regarding your personal information, including:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class=""wp-block-list""><!-- wp:list-item -->
+<li>Right to access your data</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Right to correct inaccurate information</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Right to delete your information</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Right to restrict processing</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li>Right to data portability</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">Children's Privacy</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Our service is not intended for children under 13. We do not knowingly collect personal information from children under 13. If you believe we have collected such information, please contact us immediately.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">International Data Transfers</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Your information may be transferred to and processed in countries other than your own. We ensure appropriate safeguards are in place for such transfers.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">Retention Period</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We retain your information only as long as necessary to fulfill the purposes outlined in this policy or as required by law.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">Third-Party Links</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>Our website may contain links to third-party sites. We are not responsible for the privacy practices of these external sites.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">Changes to Privacy Policy</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>We may update this Privacy Policy periodically. We will notify you of significant changes by posting the new policy on our website with an updated date.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">Cookie Policy</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p><strong>What Are Cookies?</strong> Cookies are small text files stored on your device when you visit our website. They help us provide a better user experience and analyze website performance.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Types of Cookies We Use:</strong></p>
+<!-- /wp:paragraph -->
+
+<!-- wp:list -->
+<ul class=""wp-block-list""><!-- wp:list-item -->
+<li><strong>Essential Cookies:</strong> Necessary for the website to function properly</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Analytics Cookies:</strong> Help us understand how visitors use our site</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Marketing Cookies:</strong> Used to deliver relevant advertisements</li>
+<!-- /wp:list-item -->
+
+<!-- wp:list-item -->
+<li><strong>Preference Cookies:</strong> Remember your settings and preferences</li>
+<!-- /wp:list-item --></ul>
+<!-- /wp:list -->
+
+<!-- wp:paragraph -->
+<p><strong>Managing Cookies:</strong> You can control cookies through your browser settings. Note that disabling certain cookies may affect website functionality.</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:heading {""level"":3} -->
+<h3 class=""wp-block-heading"">Contact Us</h3>
+<!-- /wp:heading -->
+
+<!-- wp:paragraph -->
+<p>If you have questions about this Privacy Policy or our data practices, please contact us at:</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:paragraph -->
+<p><strong>Case Study Labs</strong><br>Email: info@casestudy-labs.com</p>
+<!-- /wp:paragraph -->
+
+<!-- wp:separator -->
+<hr class=""wp-block-separator has-alpha-channel-opacity""/>
+<!-- /wp:separator -->"
+691,"Brand Analysis Quiz","<!-- wp:html -->
+<!DOCTYPE html>
+<html lang=""en"">
+<head>
+  <meta charset=""UTF-8"" />
+  <meta name=""viewport"" content=""width=device-width, initial-scale=1.0""/>
+  <title>Brand Clarity Quiz - Themed Version</title>
+
+  <!-- GOOGLE FONTS & DASHICONS -->
+  <link rel=""preconnect"" href=""https://fonts.googleapis.com""/>
+  <link rel=""preconnect"" href=""https://fonts.gstatic.com"" crossorigin/>
+  <link href=""https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600&display=swap"" rel=""stylesheet""/>
+  <link rel=""stylesheet"" href=""https://s.w.org/wp-includes/css/dashicons.css"" type=""text/css"" media=""all""/>
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-M8K6QC9K');
+  </script>
+  <!-- End Google Tag Manager -->
+
+  <style>
+    /* ================================================================== */
+    /* [ THEME VARIABLES ] */
+    /* ================================================================== */
+    :root{
+      --color-accent-rgb: 0,238,255;
+      --color-accent: rgb(var(--color-accent-rgb));
+      --color-warning-rgb: 255,119,0;
+      --color-warning: rgb(var(--color-warning-rgb));
+      --color-bg-deep:#0A0A0A;
+      --color-bg-surface:#121212;
+      --color-bg-elevated:#1C1C1C;
+      --color-text-primary:#FFFFFF;
+      --color-text-secondary:#B0B0B0;
+      --color-text-muted:#7A7A7A;
+      --color-ui-stroke: rgba(130,142,173,0.2);
+      --color-ui-stroke-strong: rgba(130,142,173,0.4);
+      --glass-bg-light: rgba(20,20,20,0.25);
+      --glass-bg-medium: rgba(20,20,20,0.45);
+      --glass-bg-strong: rgba(20,20,20,0.65);
+      --glass-bg-ultra: rgba(20,20,20,0.85);
+      --glass-border-subtle: rgba(225,232,255,0.1);
+      --glass-border-medium: rgba(225,232,255,0.2);
+      --glass-border-strong: rgba(225,232,255,0.3);
+      --glass-blur-light: blur(8px);
+      --glass-blur-medium: blur(16px);
+      --glass-blur-strong: blur(24px);
+      --glass-shadow-light: 0 4px 16px rgba(0,0,0,0.15);
+      --glass-shadow-medium: 0 8px 32px rgba(0,0,0,0.25);
+      --glass-shadow-strong: 0 16px 64px rgba(0,0,0,0.35);
+      --grid-color-primary: rgba(130,142,173,0.15);
+      --grid-color-accent: rgba(184,255,0,0.08);
+      --font-display:'Space Grotesk',sans-serif;
+      --font-mono:'Fira Code',monospace;
+    }
+
+    /* ================================================================== */
+    /* [ GENERAL STYLES ] */
+    /* ================================================================== */
+    *{margin:0;padding:0;box-sizing:border-box}
+    body{
+      font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+      background-color:var(--color-bg-deep);
+      color:var(--color-text-primary);
+      min-height:100vh;overflow-x:hidden;perspective:800px;
+    }
+    body::before{
+      content:'';position:fixed;top:0;left:-50%;width:200%;height:200%;z-index:-1;
+      background-image:
+        linear-gradient(var(--grid-color-primary) 1px,transparent 1px),
+        linear-gradient(90deg,var(--grid-color-primary) 1px,transparent 1px);
+      background-size:80px 80px;transform-origin:center center;
+      transform:rotateX(65deg) translateY(-50%);animation:moveGrid 20s linear infinite;
+    }
+    .quiz-container{max-width:680px;margin:0 auto;padding:20px;min-height:100vh;display:flex;flex-direction:column;justify-content:center;position:relative;z-index:1}
+    .brand-header{text-align:center;margin-bottom:40px;opacity:0;animation:fadeInUp 1s .5s forwards}
+    .brand-header h1,.question-title,.results-title{font-family:var(--font-display)}
+    .brand-header h1,.results-title{font-size:2.2rem;margin-bottom:10px;color:var(--color-accent)}
+    .brand-header p{color:var(--color-text-secondary);font-size:1.1rem}
+    .progress-bar{height:4px;background:var(--color-bg-elevated);border-radius:2px;margin-bottom:40px;overflow:hidden;opacity:0;animation:fadeInUp 1s .7s forwards}
+    .progress-fill{height:100%;background:var(--color-accent);width:0%;transition:width .8s cubic-bezier(.4,0,.2,1)}
+    .question-card,.results-card{
+      background:var(--glass-bg-strong);backdrop-filter:var(--glass-blur-medium);
+      border:1px solid var(--glass-border-medium);border-radius:20px;padding:40px;margin-bottom:30px
+    }
+    .question-card{opacity:0;transform:translateY(30px);transition:all .6s cubic-bezier(.4,0,.2,1)}
+    .question-card.active{opacity:1;transform:translateY(0)}
+    .question-card.exit{opacity:0;transform:translateY(-30px) scale(.95)}
+    .question-number{color:var(--color-accent);font-size:.9rem;font-weight:600;margin-bottom:15px;text-transform:uppercase;letter-spacing:1px}
+    .question-title{font-size:1.8rem;margin-bottom:30px;line-height:1.3;color:var(--color-text-primary)}
+    .options-grid{display:grid;gap:15px}
+    .option-button{
+      background:var(--glass-bg-light);border:1px solid var(--glass-border-subtle);
+      border-radius:12px;padding:20px 25px;color:var(--color-text-primary);font-size:1rem;
+      cursor:pointer;transition:all .3s cubic-bezier(.4,0,.2,1);text-align:left
+    }
+    .option-button:hover{
+      border-color:var(--color-accent);background:rgba(var(--color-accent-rgb),.1);
+      transform:translateY(-4px) scale(1.02);box-shadow:var(--glass-shadow-medium)
+    }
+    .option-button.selected{
+      background:rgba(var(--color-accent-rgb),.2);border-color:var(--color-accent);
+      transform:translateY(-2px) scale(1.05)
+    }
+    .results-card{text-align:center;opacity:0;transform:scale(.9);transition:all .8s cubic-bezier(.4,0,.2,1)}
+    .results-card.show{opacity:1;transform:scale(1);animation:resultEntrance 1.2s cubic-bezier(.4,0,.2,1) forwards}
+    .results-description{font-size:1.2rem;line-height:1.6;color:var(--color-text-secondary);margin-bottom:40px}
+    .cta-buttons{display:flex;gap:20px;justify-content:center;flex-wrap:wrap}
+    .cta-primary{
+      background:var(--color-accent);color:var(--color-bg-deep);padding:15px 30px;border-radius:50px;
+      text-decoration:none;font-weight:600;font-size:1rem;transition:all .3s ease;border:none;cursor:pointer
+    }
+    .cta-primary:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(var(--color-accent-rgb),.3)}
+    .cta-secondary{
+      background:transparent;color:var(--color-text-primary);padding:15px 30px;border:1px solid var(--color-ui-stroke-strong);
+      border-radius:50px;text-decoration:none;font-weight:500;font-size:1rem;transition:all .3s ease
+    }
+    .cta-secondary:hover{border-color:var(--color-text-primary);background:rgba(var(--color-accent-rgb),.1)}
+    .floating-elements{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:0}
+    .dash-icon{position:absolute;font-size:1.8rem;opacity:.3;pointer-events:none;animation:floatDash 12s ease-in-out infinite;color:var(--color-accent)}
+    .dash-icon:nth-child(1){top:15%;left:10%;animation-delay:1s}
+    .dash-icon:nth-child(2){top:70%;left:5%;animation-delay:3s}
+    .dash-icon:nth-child(3){top:20%;right:8%;animation-delay:5s}
+    .dash-icon:nth-child(4){top:85%;right:40%;animation-delay:2s}
+    .dash-icon:nth-child(5){top:50%;left:25%;animation-delay:7s}
+    .dash-icon:nth-child(6){top:5%;right:50%;animation-delay:6s}
+    .dash-icon:nth-child(7){top:80%;right:15%;animation-delay:4s}
+    .dash-icon:nth-child(8){top:45%;left:5%;animation-delay:8s}
+    #results-animation-container{position:fixed;top:0;left:0;width:100vw;height:100vh;pointer-events:none;z-index:5}
+    @keyframes moveGrid{from{background-position:0 0}to{background-position:0 -800px}}
+    @keyframes fadeInUp{from{opacity:0;transform:translateY(30px)}to{opacity:1;transform:translateY(0)}}
+    @keyframes floatDash{
+      0%,100%{transform:translateY(0) rotate(0);opacity:.1}
+      25%{transform:translateY(-25px) rotate(15deg);opacity:.4}
+      50%{transform:translateY(-10px) rotate(-10deg);opacity:.2}
+      75%{transform:translateY(-30px) rotate(8deg);opacity:.5}
+    }
+    @keyframes resultEntrance{
+      0%{transform:scale(.8) rotateY(-15deg);opacity:0}
+      50%{transform:scale(1.05) rotateY(5deg);opacity:.8}
+      100%{transform:scale(1) rotateY(0);opacity:1}
+    }
+
+    /* Base mobile */
+    @media (max-width:768px){
+      body::before{transform:rotateX(75deg) translateY(-30%)}
+      .quiz-container{max-width:100%;padding:0 20px}
+      .question-card{padding:30px 20px}
+      .brand-header h1,.results-title{font-size:1.8rem}
+      .question-title{font-size:1.5rem}
+      .cta-buttons{flex-direction:column;align-items:center}
+      .cta-primary,.cta-secondary{min-width:200px;text-align:center}
+    }
+
+    /* ====================================================== */
+    /* MOBILE REFINEMENTS                                     */
+    /* ====================================================== */
+    @media (max-width: 768px) {
+      .question-card {
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        padding: 0;
+        margin: 0 10px 40px 10px; /* small gutter left/right */
+      }
+      .option-button {
+        background: var(--color-bg-surface);
+        border: none;
+        border-radius: 12px;
+        padding: 18px 20px;
+        box-shadow: inset 0 2px 4px rgba(0,0,0,0.6); /* indent effect */
+        transition: all 0.2s ease;
+      }
+      .option-button:active {
+        box-shadow: inset 0 3px 6px rgba(0,0,0,0.8);
+        transform: scale(0.98);
+      }
+      .option-button.selected {
+        background: rgba(var(--color-accent-rgb), 0.15);
+        box-shadow: 0 0 10px rgba(var(--color-accent-rgb), 0.4);
+      }
+      .results-card {
+        background: transparent;
+        border: none;
+        box-shadow: none;
+        padding: 20px 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src=""https://www.googletagmanager.com/ns.html?id=GTM-M8K6QC9K""
+  height=""0"" width=""0"" style=""display:none;visibility:hidden""></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <!-- FLOATING DECOR -->
+  <div class=""floating-elements"">
+    <span class=""dash-icon dashicons dashicons-welcome-view-site""></span>
+    <span class=""dash-icon dashicons dashicons-admin-site-alt3""></span>
+    <span class=""dash-icon dashicons dashicons-admin-network""></span>
+    <span class=""dash-icon dashicons dashicons-move""></span>
+    <span class=""dash-icon dashicons dashicons-businessperson""></span>
+    <span class=""dash-icon dashicons dashicons-fullscreen-alt""></span>
+    <span class=""dash-icon dashicons dashicons-format-chat""></span>
+    <span class=""dash-icon dashicons dashicons-editor-kitchensink""></span>
+  </div>
+
+  <div id=""results-animation-container""></div>
+
+  <div class=""quiz-container"">
+    <div class=""brand-header"">
+      <h1></h1>
+      <p></p>
+    </div>
+    <div class=""progress-bar""><div class=""progress-fill""></div></div>
+    <div id=""quiz-content""></div>
+    <div id=""results-section"" class=""results-card"" style=""display:none;""></div>
+  </div>
+
+  <!-- QUIZ DATA -->
+  <script id=""quiz-data"" type=""application/json"">
+  {
+    ""header"": {
+      ""title"": ""Brand Clarity Quiz"",
+      ""subtitle"": ""Discover what your brand needs to stand out and scale up""
+    },
+    ""questions"": [
+      {
+        ""number"": ""Question 1"",
+        ""title"": ""What's your biggest brand challenge right now?"",
+        ""options"": [
+          { ""text"": ""We're launching and need everything from scratch"", ""weight"": { ""branding"": 3, ""strategy"": 2, ""marketing"": 1 } },
+          { ""text"": ""We exist but feel invisible in our market"", ""weight"": { ""marketing"": 3, ""strategy"": 2, ""branding"": 1 } },
+          { ""text"": ""We're profitable but want to elevate our image"", ""weight"": { ""branding"": 3, ""strategy"": 2, ""marketing"": 1 } },
+          { ""text"": ""We're ready to scale but lack clear direction"", ""weight"": { ""strategy"": 3, ""marketing"": 2, ""branding"": 1 } }
+        ]
+      },
+      {
+        ""number"": ""Question 2"",
+        ""title"": ""How do you currently attract customers?"",
+        ""options"": [
+          { ""text"": ""Mostly word-of-mouth and referrals"", ""weight"": { ""branding"": 2, ""strategy"": 1, ""marketing"": 3 } },
+          { ""text"": ""Social media and content creation"", ""weight"": { ""marketing"": 3, ""branding"": 2, ""strategy"": 1 } },
+          { ""text"": ""Events, trade shows, and networking"", ""weight"": { ""strategy"": 2, ""marketing"": 2, ""branding"": 2 } },
+          { ""text"": ""Honestly, we're not sure what's working"", ""weight"": { ""strategy"": 3, ""marketing"": 2, ""branding"": 1 } }
+        ]
+      },
+      {
+        ""number"": ""Question 3"",
+        ""title"": ""What does success look like for your brand?"",
+        ""options"": [
+          { ""text"": ""Being the premium choice in our category"", ""weight"": { ""branding"": 3, ""strategy"": 2, ""marketing"": 1 } },
+          { ""text"": ""Rapid growth and market expansion"", ""weight"": { ""strategy"": 3, ""marketing"": 3, ""branding"": 1 } },
+          { ""text"": ""Building a loyal community of fans"", ""weight"": { ""branding"": 2, ""marketing"": 3, ""strategy"": 1 } },
+          { ""text"": ""Consistent, predictable revenue streams"", ""weight"": { ""strategy"": 3, ""marketing"": 2, ""branding"": 1 } }
+        ]
+      },
+      {
+        ""number"": ""Question 4"",
+        ""title"": ""What's your current monthly marketing budget?"",
+        ""metaKey"": ""budget"",
+        ""options"": [
+          { ""text"": ""Under $2,500"", ""weight"": { ""marketing"": 1, ""strategy"": 1, ""branding"": 1 }, ""meta"": { ""budget"": ""low"" } },
+          { ""text"": ""$2,500 – $10,000"", ""weight"": { ""marketing"": 2, ""strategy"": 2, ""branding"": 2 }, ""meta"": { ""budget"": ""mid"" } },
+          { ""text"": ""$10,000+"", ""weight"": { ""marketing"": 3, ""strategy"": 2, ""branding"": 2 }, ""meta"": { ""budget"": ""high"" } }
+        ]
+      },
+      {
+        ""number"": ""Question 5"",
+        ""title"": ""How soon are you planning to launch or scale?"",
+        ""metaKey"": ""urgency"",
+        ""options"": [
+          { ""text"": ""Within 30 days"", ""weight"": { ""marketing"": 2, ""strategy"": 2, ""branding"": 1 }, ""meta"": { ""urgency"": ""now"" } },
+          { ""text"": ""1–3 months"", ""weight"": { ""strategy"": 2, ""marketing"": 2, ""branding"": 1 }, ""meta"": { ""urgency"": ""soon"" } },
+          { ""text"": ""3–6 months"", ""weight"": { ""strategy"": 1, ""branding"": 1, ""marketing"": 1 }, ""meta"": { ""urgency"": ""later"" } },
+          { ""text"": ""6+ months"", ""weight"": { ""strategy"": 1 }, ""meta"": { ""urgency"": ""much_later"" } }
+        ]
+      }
+    ],
+    ""results"": {
+      ""branding"": {
+        ""title"": ""Brand Identity & Design"",
+        ""description"": ""Your brand foundation is solid, but inconsistent execution is holding you back. A strategic rebrand with unified systems will unlock your growth potential."",
+        ""cta"": {
+          ""primary"": { ""text"": ""Dive Deeper On A Call"", ""url"": ""https://bit.ly/johndough"" },
+          ""secondary"": { ""text"": ""View Portfolio"", ""url"": ""https://casestudy-labs.com/case-studies/"" }
+        }
+      },
+      ""strategy"": {
+        ""title"": ""Strategic Brand Consulting"",
+        ""description"": ""You're primed for growth but missing the strategic framework. We'll build your positioning, identify winning channels, and create an execution plan that delivers real revenue"",
+        ""cta"": {
+          ""primary"": { ""text"": ""Book a Strategy Call"", ""url"": ""https://bit.ly/johndough"" },
+          ""secondary"": { ""text"": ""See Our Process"", ""url"": ""https://casestudy-labs.com/our-process"" }
+        }
+      },
+      ""marketing"": {
+        ""title"": ""Performance Marketing"",
+        ""description"": ""You need visibility and leads—yesterday. We’ll build targeted campaigns and turn attention into revenue."",
+        ""cta"": {
+          ""primary"": { ""text"": ""Start Readiness Audit"", ""url"": ""https://casestudy-labs.com/form/cannabis-advertising-readiness-quiz/"" },
+          ""secondary"": { ""text"": ""Read Case Studies"", ""url"": ""https://casestudy-labs.com/case-studies/"" }
+        }
+      }
+    },
+    ""routing"": {
+      ""discovery_call_url"": ""https://bit.ly/johndough"",
+      ""offer_url"": ""https://casestudy-labs.com/form/cannabis-advertising-readiness-quiz/"",
+      ""fallback_secondary_url"": ""https://casestudy-labs.com/services/""
+    }
+  }
+  </script>
+
+  <!-- QUIZ LOGIC -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      let quizConfig, currentQuestion = 0;
+      const scores = { branding: 0, strategy: 0, marketing: 0 };
+      const meta = { budget: null, urgency: null };
+      const answers = [];
+
+      // Safe wrapper for GTM pushes
+      const push = (obj) => {
+        try {
+          window.dataLayer = window.dataLayer || [];
+          window.dataLayer.push(obj);
+        } catch(e) { /* ignore */ }
+      };
+
+      function loadConfig(){
+        const el = document.getElementById('quiz-data');
+        if(!el){ console.error('Fatal Error: Quiz data element not found.'); return false; }
+        try { quizConfig = JSON.parse(el.textContent); return true; }
+        catch(e){ console.error('Fatal Error: Could not parse quiz JSON.', e); return false; }
+      }
+
+      function initializeQuiz(){
+        document.querySelector('.brand-header h1').innerText = quizConfig.header.title;
+        document.querySelector('.brand-header p').innerText = quizConfig.header.subtitle;
+
+        // GTM event: quiz start
+        push({ event: 'quiz_start', quiz_name: 'brand_clarity' });
+
+        showQuestion(0);
+      }
+
+      function renderButtons(options, q){
+        const frag = document.createDocumentFragment();
+        options.forEach((opt, idx) => {
+          const btn = document.createElement('button');
+          btn.type = 'button';
+          btn.className = 'option-button';
+          btn.textContent = opt.text;
+          btn.addEventListener('click', (ev) => handleSelect(ev, q, idx));
+          frag.appendChild(btn);
+        });
+        return frag;
+      }
+
+      function showQuestion(index){
+        const total = quizConfig.questions.length;
+        if(index >= total){ showResults(); return; }
+        const q = quizConfig.questions[index];
+
+        // progress
+        document.querySelector('.progress-fill').style.width = `${((index + 1) / total) * 100}%`;
+
+        // GTM event: question view
+        push({ event: 'quiz_question_view', quiz_name: 'brand_clarity', question_number: index + 1, question_title: q.title });
+
+        // build HTML
+        const card = document.createElement('div');
+        card.className = 'question-card active';
+
+        const num = document.createElement('div');
+        num.className = 'question-number';
+        num.textContent = `${q.number} of ${total}`;
+
+        const title = document.createElement('h2');
+        title.className = 'question-title';
+        title.textContent = q.title;
+
+        const grid = document.createElement('div');
+        grid.className = 'options-grid';
+        grid.appendChild(renderButtons(q.options, q));
+
+        card.appendChild(num);
+        card.appendChild(title);
+        card.appendChild(grid);
+
+        const container = document.getElementById('quiz-content');
+        if(container.firstChild){
+          container.firstChild.classList.add('exit');
+          setTimeout(()=>{ container.innerHTML = ''; container.appendChild(card); }, 300);
+        } else {
+          container.innerHTML = '';
+          container.appendChild(card);
+        }
+      }
+
+      function handleSelect(event, question, optionIndex){
+        // lock buttons
+        document.querySelectorAll('.option-button').forEach(b => b.disabled = true);
+        event.currentTarget.classList.add('selected');
+
+        const opt = question.options[optionIndex];
+
+        // GTM event: answer
+        push({ event: 'quiz_answer', quiz_name: 'brand_clarity', question_title: question.title, answer_text: opt.text });
+
+        // accumulate weights
+        if(opt.weight){
+          Object.keys(opt.weight).forEach(k => {
+            if(scores[k] !== undefined){ scores[k] += Number(opt.weight[k]) || 0; }
+          });
+        }
+        // capture meta
+        if(question.metaKey && opt.meta && opt.meta[question.metaKey]){
+          meta[question.metaKey] = opt.meta[question.metaKey];
+        }
+
+        answers.push({ q: question.title, a: opt.text, meta: opt.meta || null });
+
+        setTimeout(()=>{ currentQuestion++; showQuestion(currentQuestion); }, 600);
+      }
+
+      function triggerResultsAnimation(){
+        const container = document.getElementById('results-animation-container');
+        if(!container) return;
+        const color = getComputedStyle(document.documentElement).getPropertyValue('--color-accent').trim();
+        const rings = 3, lines = 8, duration = 2000;
+        for(let i=0;i<rings;i++){
+          const ring = document.createElement('div');
+          Object.assign(ring.style,{position:'absolute',left:'50%',top:'50%',width:'1px',height:'1px',border:`2px solid ${color}`,borderRadius:'50%',transform:'translate(-50%,-50%)'});
+          container.appendChild(ring);
+          ring.animate(
+            [{transform:'translate(-50%,-50%) scale(0)',opacity:1},
+             {transform:'translate(-50%,-50%) scale(300)',opacity:0}],
+            {duration:duration,delay:i*250,easing:'cubic-bezier(0.25,1,0.5,1)'}
+          );
+        }
+        for(let i=0;i<lines;i++){
+          const line = document.createElement('div');
+          Object.assign(line.style,{position:'absolute',left:'50%',top:'50%',width:'2px',height:'300px',background:color,transformOrigin:'top center',transform:`translate(-50%,0) rotate(${(360/lines)*i}deg)`});
+          container.appendChild(line);
+          line.animate(
+            [{transform:`translate(-50%,0) rotate(${(360/lines)*i}deg) scaleY(0)`,opacity:.8},
+             {transform:`translate(-50%,0) rotate(${(360/lines)*i}deg) scaleY(1)`,opacity:0}],
+            {duration:duration*0.8,delay:100,easing:'ease-out'}
+          );
+        }
+        setTimeout(()=>{ container.innerHTML=''; }, duration + rings*250);
+      }
+
+      function qualifyPath(topCategory){
+        const routing = quizConfig.routing || {};
+        const callURL = routing.discovery_call_url || '#';
+        const offerURL = routing.offer_url || '#';
+        const fallbackSecondary = routing.fallback_secondary_url || '#';
+
+        const budget = meta.budget || 'unknown';
+        const urgency = meta.urgency || 'unknown';
+
+        const isHigh = budget === 'high';
+        const isMid  = budget === 'mid';
+        const isLow  = budget === 'low';
+        const isUrgent = urgency === 'now';
+        const isSoon   = urgency === 'soon';
+        const isLater  = urgency === 'later' || urgency === 'much_later';
+
+        const base = JSON.parse(JSON.stringify(quizConfig.results[topCategory] || Object.values(quizConfig.results)[0]));
+
+        if (isHigh || isUrgent) {
+          base.cta.primary = { text: 'Book a Discovery Call', url: callURL };
+          base.cta.secondary = base.cta.secondary || { text: 'See Services', url: fallbackSecondary };
+          return base;
+        }
+        if (isMid && (isSoon || isUrgent)) {
+          base.cta.primary = { text: 'Start Readiness Offer', url: offerURL };
+          base.cta.secondary = { text: 'Book a Discovery Call', url: callURL };
+          return base;
+        }
+        if (isLow || isLater) {
+          base.cta.primary = { text: 'Start Readiness Offer', url: offerURL };
+          base.cta.secondary = base.cta.secondary || { text: 'Explore Services', url: fallbackSecondary };
+          return base;
+        }
+        return base;
+      }
+
+      function showResults(){
+        triggerResultsAnimation();
+
+        const topCategory = Object.keys(scores).reduce((a,b)=> scores[a] > scores[b] ? a : b);
+        const finalResult = qualifyPath(topCategory);
+
+        // GTM event: result
+        push({ event: 'quiz_result', quiz_name: 'brand_clarity', result_category: topCategory, budget: meta.budget || 'unknown', urgency: meta.urgency || 'unknown' });
+
+        // hide quiz UI
+        document.getElementById('quiz-content').style.display = 'none';
+        document.querySelector('.progress-bar').style.display = 'none';
+
+        // render results
+        const resultsSection = document.getElementById('results-section');
+        resultsSection.innerHTML = `
+          <h2 class=""results-title"">${finalResult.title}</h2>
+          <p class=""results-description"">${finalResult.description}</p>
+          <div class=""cta-buttons"">
+            <a href=""${finalResult.cta.primary.url}"" class=""cta-primary"" data-cta=""primary"">${finalResult.cta.primary.text}</a>
+            <a href=""${finalResult.cta.secondary.url}"" class=""cta-secondary"" data-cta=""secondary"">${finalResult.cta.secondary.text}</a>
+          </div>
+        `;
+        setTimeout(()=>{ resultsSection.style.display='block'; setTimeout(()=>resultsSection.classList.add('show'), 50); }, 300);
+
+        // Summary payload
+        push({ event: 'quiz_complete', quiz_name: 'brand_clarity', topCategory, budget: meta.budget, urgency: meta.urgency, answers });
+
+        // Track CTA clicks
+        resultsSection.querySelectorAll('a[data-cta]').forEach(a => {
+          a.addEventListener('click', () => {
+            push({ event: 'quiz_cta_click', quiz_name: 'brand_clarity', cta_type: a.dataset.cta, result_category: topCategory });
+          });
+        });
+      }
+
+      if(loadConfig()) initializeQuiz();
+    });
+  </script>
+</body>
+</html>
+<!-- /wp:html -->"
+694,"Our Process",
+1222,"New Ticket","[csl_new_ticket_form]
+"
+1224,"My Requests",[csl_my_tickets]
+1240,About,
+1243,"John Dough D'Angelo",

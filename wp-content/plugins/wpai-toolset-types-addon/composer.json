@@ -1,0 +1,7 @@
+{
+  "autoload": {
+    "psr-4": {
+      "wpai_toolset_types_add_on\\": "src"
+    }
+  }
+}

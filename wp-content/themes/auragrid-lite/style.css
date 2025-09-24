@@ -1,0 +1,113 @@
+/*
+Theme Name: Aura‑Grid Machina Lite
+Theme URI: https://johndoughstudios.com/themes/auragrid-lite
+Author: John Dough D’Angelo
+Author URI: https://johndoughstudios.com/
+Description: A lightweight rebuild of the Aura‑Grid Machina theme.  Uses CSS‑only animations and a 3D gradient grid background.  Structured for performance, accessibility, and compliance with WordPress theme guidelines.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: auragrid-lite
+Tags: dark, responsive, custom-background, custom-logo, block-styles
+Requires at least: 6.1
+Tested up to: 6.5
+Requires PHP: 7.4
+*/
+
+/*
+ * Base design tokens
+ */
+:root {
+  --color-primary: #b8ff00;
+  --color-accent: #00eeff;
+  --color-bg-deep: #0a0a0a;
+  --color-bg-surface: #121212;
+  --color-text-primary: #ffffff;
+  --color-text-secondary: #b0b0b0;
+
+  /* Grid background colours */
+  --grid-color-1: rgba(184,255,0,0.05);
+  --grid-color-2: rgba(0,238,255,0.05);
+}
+
+/*
+ * Global styles
+ */
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background-color:var(--color-bg-deep);
+  color:var(--color-text-primary);
+  font-family:'Fira Code', monospace;
+  line-height:1.7;
+  overflow-x:hidden;
+}
+
+/* Skip link visible on focus */
+.skip-link{position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;z-index:-9999}
+.skip-link:focus{left:0;top:0;width:auto;height:auto;z-index:100;background:var(--color-accent);color:#000;padding:.5rem}
+
+/* 3D gradient grid background using layered gradients */
+body::before{
+  content:"";
+  position:fixed;
+  inset:0;
+  z-index:-2;
+  background-image:
+    repeating-linear-gradient(0deg,var(--grid-color-1) 0 1px,transparent 1px 100px),
+    repeating-linear-gradient(90deg,var(--grid-color-2) 0 1px,transparent 1px 100px);
+  /* Create depth via transform */
+  transform:translateZ(-1px) scale(2);
+  pointer-events:none;
+  animation:grid-pan 30s linear infinite;
+}
+@keyframes grid-pan{
+  from{background-position:0 0,0 0}
+  to{background-position:50px 50px,50px 50px}
+}
+
+/* Header styles */
+.site-header{
+  position:fixed;top:0;left:0;width:100%;
+  display:flex;justify-content:space-between;align-items:center;
+  padding:1rem 2rem;
+  background:rgba(0,0,0,0.7);
+  backdrop-filter:blur(10px);
+  z-index:1000;
+}
+.site-logo a{font-size:1.5rem;font-weight:700;color:var(--color-primary);text-decoration:none}
+.main-navigation{display:flex;gap:2rem;list-style:none}
+.main-navigation a{color:var(--color-text-secondary);text-decoration:none;position:relative;padding:.25rem 0}
+.main-navigation a:focus,.main-navigation a:hover{color:var(--color-primary)}
+
+/* Hamburger menu for mobile */
+.hamburger-menu{display:none;background:none;border:none;width:24px;height:24px;position:relative;cursor:pointer}
+.hamburger-menu span{display:block;position:absolute;left:0;width:100%;height:2px;background:var(--color-text-primary);transition:.3s}
+.hamburger-menu .bar1{top:4px}
+.hamburger-menu .bar2{top:11px}
+.hamburger-menu .bar3{top:18px}
+
+@media(max-width:768px){
+  .main-navigation{position:fixed;top:0;left:0;right:0;bottom:0;flex-direction:column;justify-content:center;align-items:center;background:rgba(0,0,0,.9);transform:translateY(-100%);transition:transform .3s ease;visibility:hidden;}
+  body.nav-open .main-navigation{transform:translateY(0);visibility:visible}
+  .hamburger-menu{display:block}
+  body.nav-open .hamburger-menu .bar1{transform:translateY(7px) rotate(45deg)}
+  body.nav-open .hamburger-menu .bar2{opacity:0}
+  body.nav-open .hamburger-menu .bar3{transform:translateY(-7px) rotate(-45deg)}
+}
+
+/* Content wrappers */
+.site-content{padding-top:4rem}
+.container{max-width:1280px;margin:0 auto;padding:2rem}
+.container-narrow{max-width:960px;margin:0 auto;padding:2rem}
+
+/* Basic typography */
+h1,h2,h3,h4{font-family:'Space Grotesk', sans-serif;line-height:1.2;color:var(--color-text-primary)}
+a{color:var(--color-accent);text-decoration:none}
+a:hover{text-decoration:underline}
+
+/* Utility classes */
+.text-center{text-align:center}
+.mb-2{margin-bottom:2rem}
+.mt-3{margin-top:3rem}
+
