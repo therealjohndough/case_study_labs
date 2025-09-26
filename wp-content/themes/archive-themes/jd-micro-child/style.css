@@ -1,0 +1,14 @@
+/*
+Theme Name: JD Micro Child - Skyworld
+Theme URI: https://example.com/jd-micro-child
+Description: Child theme for JD Micro Site — Skyworld Cannabis Catalog styling and templates.
+Author: Your Name
+Author URI: https://example.com
+Template: jd-micro-site
+Version: 1.0.0
+Text Domain: jd-micro-child
+*/
+
+/* Import parent styles (recommended via functions.php enqueue) */
+
+/* Child theme custom styles can be placed in assets/css/skyworld.css and enqueued by functions.php */

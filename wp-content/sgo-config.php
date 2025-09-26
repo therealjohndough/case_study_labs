@@ -32,8 +32,8 @@ $config = array (
     3 => 'wpSGCacheBypass',
     4 => 'comment_author_',
   ),
-  'output_dir' => '/home/customer/www/casestudy-labs.com/public_html/wp-content/cache/sgo-cache/',
+  'output_dir' => '/Users/dough/Documents/claude-agent-workspace/case_study_labs/wp-content/cache/sgo-cache/',
   'logged_in_cache' => 0,
-  'cache_secret_key' => 'bc7eb7a760ce38bb50f9e8df2b589c62',
-  'logged_in_cookie' => 'wordpress_logged_in_194d27ff2e808b7ec14bffce3384cd92',
+  'cache_secret_key' => '1bea149473bde602c8285bb8d0e4149a',
+  'logged_in_cookie' => 'wordpress_logged_in_cd9b744c619529c4988e0e94344eaf12',
 );

@@ -1,5 +1,5 @@
 <?php
-define( 'WP_CACHE', true ); // By Speed Optimizer by SiteGround
+// define( 'WP_CACHE', true ); // Disabled for local development
 
 /**
  * The base configuration for WordPress
@@ -23,16 +23,16 @@ define( 'WP_CACHE', true ); // By Speed Optimizer by SiteGround
 
 // ** Database settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define( 'DB_NAME', 'db0gejgvbnwqe6' );
+define( 'DB_NAME', 'casestudy_labs_local' );
 
 /** Database username */
-define( 'DB_USER', 'ukpgvhgondxew' );
+define( 'DB_USER', 'root' );
 
 /** Database password */
-define( 'DB_PASSWORD', 'o2sy0e3jnlgf' );
+define( 'DB_PASSWORD', 'root' );
 
 /** Database hostname */
-define( 'DB_HOST', '127.0.0.1' );
+define( 'DB_HOST', 'localhost:8889' );
 
 /** Database charset to use in creating database tables. */
 define( 'DB_CHARSET', 'utf8' );
@@ -101,6 +101,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 /** Sets up WordPress vars and included files. */
-@include_once('/var/lib/sec/wp-settings-pre.php'); // Added by SiteGround WordPress management system
 require_once ABSPATH . 'wp-settings.php';
-@include_once('/var/lib/sec/wp-settings.php'); // Added by SiteGround WordPress management system

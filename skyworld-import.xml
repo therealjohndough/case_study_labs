@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+    xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:wp="http://wordpress.org/export/1.2/">
+
+<channel>
+    <title>Skyworld Import</title>
+    <link>http://example.local</link>
+    <description>Skyworld strains and products import</description>
+    <pubDate><?php echo date('D, d M Y H:i:s O'); ?></pubDate>
+    <language>en-US</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:base_site_url>http://example.local</wp:base_site_url>
+    <wp:base_blog_url>http://example.local</wp:base_blog_url>
+
+<!-- Strain posts -->
+
+
+<item>
+    <title>41 Gs</title>
+    <link>http://example.local/strain/41-gs</link>
+    <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">http://example.local/?post_type=strain&#038;p=1</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>1001</wp:post_id>
+    <wp:post_date>2025-09-25 00:00:00</wp:post_date>
+    <wp:post_date_gmt>2025-09-25 00:00:00</wp:post_date_gmt>
+    <wp:comment_status>closed</wp:comment_status>
+    <wp:ping_status>closed</wp:ping_status>
+    <wp:post_name>41-gs</wp:post_name>
+    <wp:status>publish</wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>0</wp:menu_order>
+    <wp:post_type>strain</wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta>
+        <wp:meta_key>genetics</wp:meta_key>
+        <wp:meta_value><![CDATA[Gelato 41 x Gary Payton]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>thc</wp:meta_key>
+        <wp:meta_value><![CDATA[27.82%]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>pert_total</wp:meta_key>
+        <wp:meta_value><![CDATA[2.11%]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>terp_1</wp:meta_key>
+        <wp:meta_value><![CDATA[b-Myrcene (0.56%)]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>terp_2</wp:meta_key>
+        <wp:meta_value><![CDATA[b-Caryophyllene (0.55%)]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>terp_3</wp:meta_key>
+        <wp:meta_value><![CDATA[Limonene (0.42%)]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>effects</wp:meta_key>
+        <wp:meta_value><![CDATA[Potent, Balanced, Euphoric]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>nose</wp:meta_key>
+        <wp:meta_value><![CDATA[Sweet & creamy with citrus/gas]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>flavor</wp:meta_key>
+        <wp:meta_value><![CDATA[Dessert-like citrus, creamy/gassy]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>image_path</wp:meta_key>
+        <wp:meta_value><![CDATA[images/41gs.jpg]]></wp:meta_value>
+    </wp:postmeta>
+</item>
+
+
+<item>
+    <title>Peanut Butter Gelato</title>
+    <link>http://example.local/strain/peanut-butter-gelato</link>
+    <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">http://example.local/?post_type=strain&#038;p=1002</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>1002</wp:post_id>
+    <wp:post_date>2025-09-25 00:00:00</wp:post_date>
+    <wp:post_date_gmt>2025-09-25 00:00:00</wp:post_date_gmt>
+    <wp:comment_status>closed</wp:comment_status>
+    <wp:ping_status>closed</wp:ping_status>
+    <wp:post_name>peanut-butter-gelato</wp:post_name>
+    <wp:status>publish</wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>0</wp:menu_order>
+    <wp:post_type>strain</wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta>
+        <wp:meta_key>genetics</wp:meta_key>
+        <wp:meta_value><![CDATA[PB Cookies x Starfighter x SC x Gelato]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>thc</wp:meta_key>
+        <wp:meta_value><![CDATA[26.97%]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>pert_total</wp:meta_key>
+        <wp:meta_value><![CDATA[3.54%]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>terp_1</wp:meta_key>
+        <wp:meta_value><![CDATA[Limonene (1.18%)]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>terp_2</wp:meta_key>
+        <wp:meta_value><![CDATA[b-Caryophyllene (0.70%)]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>terp_3</wp:meta_key>
+        <wp:meta_value><![CDATA[b-Myrcene (0.36%)]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>effects</wp:meta_key>
+        <wp:meta_value><![CDATA[Very Potent, Relaxing, Happy]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>nose</wp:meta_key>
+        <wp:meta_value><![CDATA[Roasted peanut butter with a sweet and fruity undertone]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>flavor</wp:meta_key>
+        <wp:meta_value><![CDATA[Nutty, creamy, and sweet with a gelato-like smoothness]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>image_path</wp:meta_key>
+        <wp:meta_value><![CDATA[images/peanut_butter_gelato.jpg]]></wp:meta_value>
+    </wp:postmeta>
+</item>
+
+
+<item>
+    <title>Wafflez</title>
+    <link>http://example.local/strain/wafflez</link>
+    <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">http://example.local/?post_type=strain&#038;p=1003</guid>
+    <description></description>
+    <content:encoded><![CDATA[]]></content:encoded>
+    <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+    <wp:post_id>1003</wp:post_id>
+    <wp:post_date>2025-09-25 00:00:00</wp:post_date>
+    <wp:post_date_gmt>2025-09-25 00:00:00</wp:post_date_gmt>
+    <wp:comment_status>closed</wp:comment_status>
+    <wp:ping_status>closed</wp:ping_status>
+    <wp:post_name>wafflez</wp:post_name>
+    <wp:status>publish</wp:status>
+    <wp:post_parent>0</wp:post_parent>
+    <wp:menu_order>0</wp:menu_order>
+    <wp:post_type>strain</wp:post_type>
+    <wp:post_password></wp:post_password>
+    <wp:is_sticky>0</wp:is_sticky>
+    <wp:postmeta>
+        <wp:meta_key>genetics</wp:meta_key>
+        <wp:meta_value><![CDATA[Apple Fritter x Stuff French Toast]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>thc</wp:meta_key>
+        <wp:meta_value><![CDATA[27.27%]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>pert_total</wp:meta_key>
+        <wp:meta_value><![CDATA[2.52%]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>terp_1</wp:meta_key>
+        <wp:meta_value><![CDATA[b-Caryophyllene (0.76%)]]></wp:meta_value>
+    </wp:postmeta>
+
+
+<!-- Remaining strain items and product posts (products reference batch numbers) -->
+
+<item>
+    <title>Sherb Cream Pie</title>
+    <link>http://example.local/strain/sherb-cream-pie</link>
+    <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">http://example.local/?post_type=strain&amp;p=1004</guid>
+    <wp:post_id>1004</wp:post_id>
+    <wp:post_date>2025-09-25 00:00:00</wp:post_date>
+    <wp:post_date_gmt>2025-09-25 00:00:00</wp:post_date_gmt>
+    <wp:post_type>strain</wp:post_type>
+    <wp:postmeta>
+        <wp:meta_key>genetics</wp:meta_key>
+        <wp:meta_value><![CDATA[Ice Cream Cake x Sherb BX1]]></wp:meta_value>
+    </wp:postmeta>
+</item>
+
+<item>
+    <title>Garlic Gravity</title>
+    <link>http://example.local/strain/garlic-gravity</link>
+    <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">http://example.local/?post_type=strain&amp;p=1005</guid>
+    <wp:post_id>1005</wp:post_id>
+    <wp:post_date>2025-09-25 00:00:00</wp:post_date>
+    <wp:post_date_gmt>2025-09-25 00:00:00</wp:post_date_gmt>
+    <wp:post_type>strain</wp:post_type>
+    <wp:postmeta>
+        <wp:meta_key>genetics</wp:meta_key>
+        <wp:meta_value><![CDATA[Garlatti x Zero Gravity]]></wp:meta_value>
+    </wp:postmeta>
+</item>
+
+<item>
+    <title>Gushcanna</title>
+    <link>http://example.local/strain/gushcanna</link>
+    <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">http://example.local/?post_type=strain&amp;p=1006</guid>
+    <wp:post_id>1006</wp:post_id>
+    <wp:post_date>2025-09-25 00:00:00</wp:post_date>
+    <wp:post_date_gmt>2025-09-25 00:00:00</wp:post_date_gmt>
+    <wp:post_type>strain</wp:post_type>
+    <wp:postmeta>
+        <wp:meta_key>genetics</wp:meta_key>
+        <wp:meta_value><![CDATA[Gushers x Tropicana]]></wp:meta_value>
+    </wp:postmeta>
+</item>
+
+<item>
+    <title>Dirt N Worms</title>
+    <link>http://example.local/strain/dirt-n-worms</link>
+    <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">http://example.local/?post_type=strain&amp;p=1007</guid>
+    <wp:post_id>1007</wp:post_id>
+    <wp:post_date>2025-09-25 00:00:00</wp:post_date>
+    <wp:post_date_gmt>2025-09-25 00:00:00</wp:post_date_gmt>
+    <wp:post_type>strain</wp:post_type>
+    <wp:postmeta>
+        <wp:meta_key>genetics</wp:meta_key>
+        <wp:meta_value><![CDATA[Gummy Worms x Quicksand]]></wp:meta_value>
+    </wp:postmeta>
+</item>
+
+<item>
+    <title>Stay Puft</title>
+    <link>http://example.local/strain/stay-puft</link>
+    <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">http://example.local/?post_type=strain&amp;p=1008</guid>
+    <wp:post_id>1008</wp:post_id>
+    <wp:post_date>2025-09-25 00:00:00</wp:post_date>
+    <wp:post_date_gmt>2025-09-25 00:00:00</wp:post_date_gmt>
+    <wp:post_type>strain</wp:post_type>
+    <wp:postmeta>
+        <wp:meta_key>genetics</wp:meta_key>
+        <wp:meta_value><![CDATA[Grape Gasoline x Marshmallow OG]]></wp:meta_value>
+    </wp:postmeta>
+</item>
+
+<item>
+    <title>Melted Strawberries</title>
+    <link>http://example.local/strain/melted-strawberries</link>
+    <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">http://example.local/?post_type=strain&amp;p=1009</guid>
+    <wp:post_id>1009</wp:post_id>
+    <wp:post_date>2025-09-25 00:00:00</wp:post_date>
+    <wp:post_date_gmt>2025-09-25 00:00:00</wp:post_date_gmt>
+    <wp:post_type>strain</wp:post_type>
+    <wp:postmeta>
+        <wp:meta_key>genetics</wp:meta_key>
+        <wp:meta_value><![CDATA[GMO x Strawberry Guava]]></wp:meta_value>
+    </wp:postmeta>
+</item>
+
+<item>
+    <title>Triple Burger</title>
+    <link>http://example.local/strain/triple-burger</link>
+    <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">http://example.local/?post_type=strain&amp;p=1010</guid>
+    <wp:post_id>1010</wp:post_id>
+    <wp:post_date>2025-09-25 00:00:00</wp:post_date>
+    <wp:post_date_gmt>2025-09-25 00:00:00</wp:post_date_gmt>
+    <wp:post_type>strain</wp:post_type>
+    <wp:postmeta>
+        <wp:meta_key>genetics</wp:meta_key>
+        <wp:meta_value><![CDATA[GMO x Double Burger]]></wp:meta_value>
+    </wp:postmeta>
+</item>
+
+<!-- Product posts -->
+
+<item>
+    <title>41 Gs — H-040725-F3-41G</title>
+    <link>http://example.local/product/41-gs-h-040725-f3-41g</link>
+    <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+    <dc:creator>admin</dc:creator>
+    <guid isPermaLink="false">http://example.local/?post_type=sky_product&amp;p=2001</guid>
+    <wp:post_id>2001</wp:post_id>
+    <wp:post_date>2025-09-25 00:00:00</wp:post_date>
+    <wp:post_date_gmt>2025-09-25 00:00:00</wp:post_date_gmt>
+    <wp:post_type>sky_product</wp:post_type>
+    <wp:postmeta>
+        <wp:meta_key>batch_number</wp:meta_key>
+        <wp:meta_value><![CDATA[H-040725-F3-41G]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>thc_percent</wp:meta_key>
+        <wp:meta_value><![CDATA[27.82]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>weight</wp:meta_key>
+        <wp:meta_value><![CDATA[3.5g]]></wp:meta_value>
+    </wp:postmeta>
+    <wp:postmeta>
+        <wp:meta_key>related_strain</wp:meta_key>
+        <wp:meta_value><![CDATA[1001]]></wp:meta_value>
+    </wp:postmeta>
+</item>
+
+
+*** End Patch

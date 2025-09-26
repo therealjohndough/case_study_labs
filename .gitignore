@@ -1,0 +1,31 @@
+# WordPress
+/wp-content/uploads/
+/wp-content/upgrade/
+/wp-content/plugins/*
+/wp-content/cache/
+/wp-content/backups/
+
+# Local config
+wp-config.php
+.env
+
+# Node / PHP
+node_modules/
+vendor/
+composer.lock
+package-lock.json
+
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Export / import files
+/data/
+*.sql
+*.sqlite
+
+# Logs
+*.log
+wp-content/debug.log
