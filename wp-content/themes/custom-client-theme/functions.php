@@ -403,6 +403,16 @@ function custom_theme_store_locator_integration() {
  */
 function custom_theme_widgets_init() {
     register_sidebar(array(
+        'name'          => __('Sidebar', 'custom-client-theme'),
+        'id'            => 'sidebar-1',
+        'description'   => __('Main sidebar widget area', 'custom-client-theme'),
+        'before_widget' => '<div id="%1$s" class="widget %2$s">',
+        'after_widget'  => '</div>',
+        'before_title'  => '<h3 class="widget-title">',
+        'after_title'   => '</h3>',
+    ));
+    
+    register_sidebar(array(
         'name'          => __('Footer Widget Area', 'custom-client-theme'),
         'id'            => 'footer-widgets',
         'description'   => __('Widget area for the footer', 'custom-client-theme'),
